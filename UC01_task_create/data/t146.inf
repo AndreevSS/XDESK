@@ -1,0 +1,11 @@
+[t146]
+FileName1=t146.html
+URL1=http://learning2.pflb.ru:56902/api/login
+Total=1
+RequestHeaderFile=t146_RequestHeader.txt
+RequestBodyFile=t146_RequestBody.txt
+ResponseHeaderFile=t146_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_146.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

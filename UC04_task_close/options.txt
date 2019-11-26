@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\UC4_TASK_CLOSE
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\student\desktop\новая папка (2)\andreev123\pc\uc4_task_close\\logfile.log
+c:\users\student\desktop\новая папка (2)\andreev123\pc\uc4_task_close\\combined_UC4_TASK_CLOSE.c
+c:\users\student\desktop\новая папка (2)\andreev123\pc\uc4_task_close\\pre_cci.c

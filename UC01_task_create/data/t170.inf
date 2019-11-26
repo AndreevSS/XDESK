@@ -1,0 +1,10 @@
+[t170]
+FileName1=t170_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=78
+Total=3
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_170.xml
+FileName2=t170_dust-helpers.html
+URL2=http://learning2.pflb.ru:56902/js/core/dust-helpers.js
+FileName3=t170_custom-helpers.html
+URL3=http://learning2.pflb.ru:56902/js/core/custom-helpers.js

@@ -1,0 +1,11 @@
+[t130]
+FileName1=t130.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/node/146/service/
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_130.xml
+RequestHeaderFile=t130_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t130_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t168]
+FileName1=t168.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/?state=-1,0,1,5&page=0&size=10
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_168.xml
+RequestHeaderFile=t168_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t168_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

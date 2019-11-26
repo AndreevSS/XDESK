@@ -1,0 +1,9 @@
+[t108]
+FileName1=t108.html
+URL1=http://learning2.pflb.ru:56902/
+Total=1
+RequestHeaderFile=t108_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t108_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_108.xml

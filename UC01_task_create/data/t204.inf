@@ -1,0 +1,11 @@
+[t204]
+FileName1=t204.html
+URL1=http://learning2.pflb.ru:56902/
+Total=2
+RequestHeaderFile=t204_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t204_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_204.xml
+FileName2=t204_jqueryformplugin.html
+URL2=http://learning2.pflb.ru:56902/js/core/jqueryformplugin.js?_=1574694449892

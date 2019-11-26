@@ -1,0 +1,15 @@
+[t222]
+FileName1=t222_4.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/countByState/4
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_222.xml
+RequestHeaderFile=t222_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t222_ResponseHeader.txt
+FileName2=t222_tickets.html
+URL2=http://learning2.pflb.ru:56902/engineer/tickets/tickets.dust
+FileName3=t222_tickets.html
+URL3=http://learning2.pflb.ru:56902/engineer/tickets/tickets.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t179]
+FileName1=t179.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/countByState/
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_179.xml
+RequestHeaderFile=t179_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t179_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

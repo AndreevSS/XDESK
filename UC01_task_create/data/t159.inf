@@ -1,0 +1,13 @@
+[t159]
+FileName1=t159_146.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/breadcrumbs/146
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_159.xml
+RequestHeaderFile=t159_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t159_ResponseHeader.txt
+FileName2=t159_addticket.html
+URL2=http://learning2.pflb.ru:56902/engineer/addticket.dust
+[ProtocolInfo]
+ProtocolId=QTWeb

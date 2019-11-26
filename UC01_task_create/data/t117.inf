@@ -1,0 +1,11 @@
+[t117]
+FileName1=t117_Roboto-Medium.html
+URL1=http://learning2.pflb.ru:56902/css/fonts/roboto/Roboto-Medium.woff2
+Total=1
+ContentType=application/font-woff2
+SnapshotXmlFile=snapshot_117.xml
+RequestHeaderFile=t117_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t117_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,3 @@
+"{\"text\":\"5451234\",\"header\":\"\xD0\xA2\xD0\xB5\xD1\x87\xD0\xB5\xD1\x82 \xD0\xBC\xD0\xB0\xD1"
+"\x81\xD0\xBB\xD0\xBE\",\"ticketStateId\":0,\"serviceId\":\"2906\",\"files\":[4390],\"inventory"
+"NumberId\":\"10\",\"shopId\":\"5\"}"

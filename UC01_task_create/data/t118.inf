@@ -1,0 +1,11 @@
+[t118]
+FileName1=t118_tickets.html
+URL1=http://learning2.pflb.ru:56902/engineer/tickets/tickets.dust
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_118.xml
+RequestHeaderFile=t118_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t118_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

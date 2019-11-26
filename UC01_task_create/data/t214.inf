@@ -1,0 +1,11 @@
+[t214]
+FileName1=t214.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/node/143/children/
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_214.xml
+RequestHeaderFile=t214_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t214_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t20]
+FileName1=t20.json
+URL1=http://learning2.pflb.ru:56902/api/ticket/149377/solve/
+Total=2
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_149377.pdf
+URL2=http://learning2.pflb.ru:56902/api/report/149377?timeZoneOffset=3
+[ProtocolInfo]
+ProtocolId=QTWeb

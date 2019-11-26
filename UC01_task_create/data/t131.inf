@@ -1,0 +1,13 @@
+[t131]
+FileName1=t131_146.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/breadcrumbs/146
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_131.xml
+RequestHeaderFile=t131_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t131_ResponseHeader.txt
+FileName2=t131_addticket.html
+URL2=http://learning2.pflb.ru:56902/engineer/addticket.dust
+[ProtocolInfo]
+ProtocolId=QTWeb

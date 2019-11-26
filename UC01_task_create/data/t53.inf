@@ -1,0 +1,13 @@
+[t53]
+FileName1=t53_189.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/breadcrumbs/189
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_53.xml
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t53_ResponseHeader.txt
+FileName2=t53_addticket.html
+URL2=http://learning2.pflb.ru:56902/engineer/addticket.dust
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t103]
+FileName1=t103_login.html
+URL1=http://learning2.pflb.ru:56902/tpl/login/login.dust
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_103.xml
+RequestHeaderFile=t103_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t103_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t153]
+FileName1=t153.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/node/0/children/
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_153.xml
+RequestHeaderFile=t153_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t153_ResponseHeader.txt
+FileName2=t153_logo-5ka.png
+URL2=http://learning2.pflb.ru:56902/images/logo-5ka.png
+[ProtocolInfo]
+ProtocolId=QTWeb

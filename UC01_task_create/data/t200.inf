@@ -1,0 +1,11 @@
+[t200]
+FileName1=t200_merchants.json
+URL1=https://www.gstatic.com/autofill/weekly/merchants.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_200.xml
+RequestHeaderFile=t200_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t200_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

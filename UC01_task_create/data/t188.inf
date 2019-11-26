@@ -1,0 +1,11 @@
+[t188]
+FileName1=t188_inventoryNumbers.json
+URL1=http://learning2.pflb.ru:56902/api/inventoryNumbers?serviceId=2782&shopId=-2
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_188.xml
+RequestHeaderFile=t188_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t188_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

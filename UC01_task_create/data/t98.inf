@@ -1,0 +1,13 @@
+[t98]
+FileName1=t98_bins.json
+URL1=https://www.gstatic.com/autofill/hourly/bins.json
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_98.xml
+RequestHeaderFile=t98_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t98_ResponseHeader.txt
+FileName2=t98_materialTable.html
+URL2=http://learning2.pflb.ru:56902/js/core/materialTable.js
+[ProtocolInfo]
+ProtocolId=QTWeb

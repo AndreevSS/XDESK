@@ -1,0 +1,11 @@
+[t29]
+FileName1=t29_wrapper.html
+URL1=http://learning2.pflb.ru:56902/engineer/wrapper/wrapper.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_29.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

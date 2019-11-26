@@ -1,0 +1,8 @@
+GET /autofill/weekly/merchants.json HTTP/1.1
+Host: www.gstatic.com
+Connection: keep-alive
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

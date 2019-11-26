@@ -1,0 +1,12 @@
+GET /api/ticket/?state=-1,0,1,5&page=0&size=10 HTTP/1.1
+Host: learning2.pflb.ru:56902
+Connection: keep-alive
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+Content-Type: application/json; charset=utf-8
+Referer: http://learning2.pflb.ru:56902/
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: sessionExpired=false; SESSION=08140146-444b-4041-9c18-b899fb743fda; currentCompany=0; currentUser=master; PFLB.pre.login.link=null
+

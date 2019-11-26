@@ -1,0 +1,11 @@
+[t171]
+FileName1=t171_bins.json
+URL1=https://www.gstatic.com/autofill/hourly/bins.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_171.xml
+RequestHeaderFile=t171_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t171_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

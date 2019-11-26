@@ -1,0 +1,7 @@
+HTTP/1.1 200 
+Last-Modified: Tue, 27 Nov 2018 14:03:43 GMT
+Accept-Ranges: bytes
+Content-Type: application/font-woff2;charset=UTF-8
+Content-Length: 44300
+Date: Mon, 25 Nov 2019 14:59:39 GMT
+

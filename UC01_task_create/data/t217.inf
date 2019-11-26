@@ -1,0 +1,11 @@
+[t217]
+FileName1=t217_inventoryNumbers.json
+URL1=http://learning2.pflb.ru:56902/api/inventoryNumbers?serviceId=2781&shopId=-2
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_217.xml
+RequestHeaderFile=t217_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t217_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+[t50]
+FileName1=t50_treeview.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/treeview?shopid=5
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_50.xml
+RequestHeaderFile=t50_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t50_ResponseHeader.txt
+FileName2=t50_catalog.html
+URL2=http://learning2.pflb.ru:56902/engineer/catalog/catalog.dust
+FileName3=t50_catalog.html
+URL3=http://learning2.pflb.ru:56902/engineer/catalog/catalog.js
+[ProtocolInfo]
+ProtocolId=QTWeb

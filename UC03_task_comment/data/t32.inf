@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32_tasks.html
+URL1=http://learning2.pflb.ru:56902/engineer/tasks/tasks.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

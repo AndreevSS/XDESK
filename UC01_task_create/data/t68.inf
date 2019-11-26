@@ -1,0 +1,8 @@
+[t68]
+FileName1=t68_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=78
+Total=2
+ContentType=text/css
+SnapshotXmlFile=snapshot_68.xml
+FileName2=t68_material_icons.css
+URL2=http://learning2.pflb.ru:56902/css/core/material_icons.css

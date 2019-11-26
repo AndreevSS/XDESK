@@ -1,0 +1,11 @@
+GET /login HTTP/1.1
+Referer: http://learning2.pflb.ru:56902/
+A-IM: x-bm,gzip
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: learning2.pflb.ru:56902
+

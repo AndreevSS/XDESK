@@ -1,0 +1,11 @@
+[t115]
+FileName1=t115_Roboto-Bold.html
+URL1=http://learning2.pflb.ru:56902/css/fonts/roboto/Roboto-Bold.woff2
+Total=1
+ContentType=application/font-woff2
+SnapshotXmlFile=snapshot_115.xml
+RequestHeaderFile=t115_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t115_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

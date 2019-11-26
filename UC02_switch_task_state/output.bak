@@ -1,0 +1,19 @@
+Virtual User Script started at: 26.11.2019 13:25:34
+Starting action vuser_init.
+JDBC Connection Successful
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Actions.
+Actions.java(48): Notify: Transaction "Database_Query_1" started.
+Actions.java(51): Notify: Transaction "Database_Query_1" ended with a "Pass" status (Duration: 0,1438).
+Actions.java(54): Notify: Transaction "Database_Query_2" started.
+Caught Exception: ORA-00907: отсутствует правая скобка
+Actions.java(56): Notify: Transaction "Database_Query_2" ended with a "Fail" status (Duration: 0,0247).
+Actions.java(56): Notify: Transaction "Database_Query_2" has 0 error message(s).
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

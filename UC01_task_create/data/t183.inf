@@ -1,0 +1,11 @@
+[t183]
+FileName1=t183.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/node/0/children/
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_183.xml
+RequestHeaderFile=t183_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t183_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

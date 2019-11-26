@@ -1,0 +1,13 @@
+[t124]
+FileName1=t124.json
+URL1=http://learning2.pflb.ru:56902/api/user/catalog/node/0/children/
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_124.xml
+RequestHeaderFile=t124_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t124_ResponseHeader.txt
+FileName2=t124_logo-5ka.png
+URL2=http://learning2.pflb.ru:56902/images/logo-5ka.png
+[ProtocolInfo]
+ProtocolId=QTWeb

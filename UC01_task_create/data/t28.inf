@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28_bins.json
+URL1=https://www.gstatic.com/autofill/hourly/bins.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

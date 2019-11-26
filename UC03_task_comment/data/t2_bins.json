@@ -1,0 +1,3 @@
+{
+  "cpan_eligible_bin_wl_regex": ["^4[0-9]{15,18}$"]
+}

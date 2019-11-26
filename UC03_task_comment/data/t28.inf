@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28_wrapper.html
+URL1=http://learning2.pflb.ru:56902/engineer/wrapper/wrapper.dust
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
