@@ -33,7 +33,7 @@ public class Actions
 		    lr.abort();
 		}
 	    return 0;
-    } //end of init
+    } 
 
     public int action() throws ClassNotFoundException, SQLException {
     	
@@ -50,17 +50,13 @@ public class Actions
 	connection.close();
 
 	return 0;
-    } //end of action
+    }
 
     public int end() throws Throwable {
 	connection = null;
         return 0;
-    } //end of end
+    }
 
-    // Function: database_query
-    // Argument: SQL Query String
-    // Performs an SQL Query String, and returns pass or fail for the current transaction
-    //
     public int database_query(String SQL_QUERY) {
        Statement stmt = null;
        ResultSet rset = null;
