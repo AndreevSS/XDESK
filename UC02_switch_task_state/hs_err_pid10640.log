@@ -1,0 +1,377 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x74c7b8a0, pid=10640, tid=0x00001368
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_231-b11) (build 1.8.0_231-b11)
+# Java VM: Java HotSpot(TM) Server VM (25.231-b11 mixed mode windows-x86 )
+# Problematic frame:
+# C  [ucrtbase.dll+0x4b8a0]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0838cc00):  JavaThread "main" [_thread_in_native, id=4968, stack(0x07c70000,0x07d70000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000000
+
+Registers:
+EAX=0x00000000, EBX=0x0a934480, ECX=0x00000000, EDX=0x060b0418
+ESP=0x07d6be9c, EBP=0x07d6beb8, ESI=0x0a934480, EDI=0x0838cc00
+EIP=0x74c7b8a0, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x07d6be9c)
+0x07d6be9c:   70591690 00000000 0a934480 0838cc00
+0x07d6beac:   080196c0 00000000 0038cc00 07d6bef0
+0x07d6bebc:   1002eebd 0838cd40 07d6bef8 07d6bf00
+0x07d6becc:   1002ec9a 07d6bed0 0a934480 07d6bf00
+0x07d6bedc:   0a938ff8 00000000 0a934480 00000000
+0x07d6beec:   07d6bf00 07d6bf28 10024df4 3c545a48
+0x07d6befc:   1002a9b6 3c651e18 3c651db0 07d6bf08
+0x07d6bf0c:   0a94d30b 07d6bf30 0a94d7a8 00000000 
+
+Instructions: (pc=0x74c7b8a0)
+0x74c7b880:   01 84 c0 74 4e f7 c1 03 00 00 00 75 ef 05 00 00
+0x74c7b890:   00 00 8d a4 24 00 00 00 00 8d a4 24 00 00 00 00
+0x74c7b8a0:   8b 01 ba ff fe fe 7e 03 d0 83 f0 ff 33 c2 83 c1
+0x74c7b8b0:   04 a9 00 01 01 81 74 e8 8b 41 fc 84 c0 74 32 84 
+
+
+Register to memory mapping:
+
+EAX=0x00000000 is an unknown value
+EBX={method} {0x0a934484} 'eval_string' '(Ljava/lang/String;)Ljava/lang/String;' in 'lrapi/lr'
+ECX=0x00000000 is an unknown value
+EDX=0x060b0418 is an unknown value
+ESP=0x07d6be9c is pointing into the stack for thread: 0x0838cc00
+EBP=0x07d6beb8 is pointing into the stack for thread: 0x0838cc00
+ESI={method} {0x0a934484} 'eval_string' '(Ljava/lang/String;)Ljava/lang/String;' in 'lrapi/lr'
+EDI=0x0838cc00 is a thread
+
+
+Stack: [0x07c70000,0x07d70000],  sp=0x07d6be9c,  free space=1007k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [ucrtbase.dll+0x4b8a0]
+j  lrapi.lr.eval_string(Ljava/lang/String;)Ljava/lang/String;+0
+j  Actions.<init>()V+19
+v  ~StubRoutines::call_stub
+C  0x77b410a5
+C  0x77c17ffe
+C  0x77b4113e
+C  0x77b4dc68
+C  0x77b4e011
+C  0x77ae2068
+C  0x706435a3
+j  sun.reflect.NativeConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;+85
+j  sun.reflect.DelegatingConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;+5
+j  java.lang.reflect.Constructor.newInstance([Ljava/lang/Object;)Ljava/lang/Object;+79
+j  java.lang.Class.newInstance()Ljava/lang/Object;+138
+j  com.hpe.lr.java.replay.ScriptContainer.<init>(Ljava/lang/String;Ljava/lang/String;)V+28
+j  com.hpe.lr.java.replay.ScriptFactory.getScriptObject(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;+54
+v  ~StubRoutines::call_stub
+C  0x77b410a5
+C  0x77c17ffe
+C  0x77b4113e
+C  0x77ababab
+C  0x77abc59c
+C  [java_int.dll+0xbdfe]
+C  [java_int.dll+0x18ca0]
+C  [java_int.dll+0x18f95]
+C  [java_int.dll+0x1d5a2]
+C  [java_int.dll+0x204af]
+C  [driver.dll+0xe8bf]
+C  [driver.dll+0x1e286]
+C  [driver.dll+0x1e71f]
+C  [driver.dll+0x8a0b]
+C  [driver.dll+0x7a08]
+C  [driver.dll+0xcfca]
+C  [driver.dll+0x7614]
+C  0x05039387
+C  0x05039191
+C  0x050390a5
+C  0x05038f53
+C  [mscorlib.ni.dll+0x3d2e01]
+C  [mscorlib.ni.dll+0x3f8604]
+C  [mscorlib.ni.dll+0x3f8537]
+C  [mscorlib.ni.dll+0x3f84f4]
+C  [mscorlib.ni.dll+0x3d2d5b]
+C  [clr.dll+0xf056]
+C  [clr.dll+0x1235a]
+C  [clr.dll+0x1859b]
+C  [clr.dll+0x1033c7]
+C  [clr.dll+0x1bd95e]
+C  [clr.dll+0x1bd9e9]
+C  [clr.dll+0x1bd8d9]
+C  [clr.dll+0x1bdac9]
+C  [clr.dll+0x103278]
+C  [clr.dll+0x1ba8b7]
+C  [KERNEL32.dll+0x20419]
+C  [ntdll.dll+0x6662d]
+C  [ntdll.dll+0x665fd]
+C  0x00000000
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  lrapi.lr.eval_string(Ljava/lang/String;)Ljava/lang/String;+0
+j  Actions.<init>()V+19
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;+85
+j  sun.reflect.DelegatingConstructorAccessorImpl.newInstance([Ljava/lang/Object;)Ljava/lang/Object;+5
+j  java.lang.reflect.Constructor.newInstance([Ljava/lang/Object;)Ljava/lang/Object;+79
+j  java.lang.Class.newInstance()Ljava/lang/Object;+138
+j  com.hpe.lr.java.replay.ScriptContainer.<init>(Ljava/lang/String;Ljava/lang/String;)V+28
+j  com.hpe.lr.java.replay.ScriptFactory.getScriptObject(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;+54
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0ad1b800 JavaThread "Service Thread" daemon [_thread_blocked, id=7324, stack(0x0b8b0000,0x0b9b0000)]
+  0x0ad16c00 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=2304, stack(0x0b770000,0x0b870000)]
+  0x0acc3c00 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=7492, stack(0x0b630000,0x0b730000)]
+  0x0acca400 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=2672, stack(0x0b4f0000,0x0b5f0000)]
+  0x0acc8c00 JavaThread "Attach Listener" daemon [_thread_blocked, id=9556, stack(0x0b3b0000,0x0b4b0000)]
+  0x0acc7c00 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=6252, stack(0x0b270000,0x0b370000)]
+  0x0aca9c00 JavaThread "Finalizer" daemon [_thread_blocked, id=7376, stack(0x0b030000,0x0b130000)]
+  0x0aca4400 JavaThread "Reference Handler" daemon [_thread_blocked, id=9224, stack(0x0aef0000,0x0aff0000)]
+=>0x0838cc00 JavaThread "main" [_thread_in_native, id=4968, stack(0x07c70000,0x07d70000)]
+
+Other Threads:
+  0x0830d000 VMThread [stack: 0x0adb0000,0x0aeb0000] [id=9932]
+  0x0ad1e800 WatcherThread [stack: 0x0b9f0000,0x0baf0000] [id=10288]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 19200K, used 1702K [0x3c4c0000, 0x3da00000, 0x4ae00000)
+  eden space 16640K, 10% used [0x3c4c0000,0x3c669b50,0x3d500000)
+  from space 2560K, 0% used [0x3d780000,0x3d780000,0x3da00000)
+  to   space 2560K, 0% used [0x3d500000,0x3d500000,0x3d780000)
+ ParOldGen       total 43776K, used 0K [0x1f200000, 0x21cc0000, 0x3c4c0000)
+  object space 43776K, 0% used [0x1f200000,0x1f200000,0x21cc0000)
+ Metaspace       used 1957K, capacity 2370K, committed 2496K, reserved 4480K
+
+Card table byte_map: [0x08750000,0x088b0000] byte_map_base: 0x08657000
+
+Marking Bits: (ParMarkBitMap*) 0x77f8ac30
+ Begin Bits: [0x08e60000, 0x09950000)
+ End Bits:   [0x09950000, 0x0a440000)
+
+Polling page: 0x081e0000
+
+CodeCache: size=245760Kb used=754Kb max_used=764Kb free=245005Kb
+ bounds [0x10020000, 0x10260000, 0x1f020000]
+ total_blobs=232 nmethods=72 adapters=74
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 0.136 Thread 0x0ad16c00   67       3       java.util.concurrent.ConcurrentHashMap::setTabAt (19 bytes)
+Event: 0.136 Thread 0x0acca400   69       4       java.lang.String::indexOf (70 bytes)
+Event: 0.136 Thread 0x0ad16c00 nmethod 67 0x100db108 code [0x100db200, 0x100db2e0]
+Event: 0.137 Thread 0x0ad16c00   70   !   3       sun.misc.URLClassPath$JarLoader::getResource (85 bytes)
+Event: 0.138 Thread 0x0ad16c00 nmethod 70 0x100dc808 code [0x100dc9e0, 0x100dd060]
+Event: 0.138 Thread 0x0acca400 nmethod 69 0x100ded48 code [0x100dee40, 0x100defb0]
+Event: 0.138 Thread 0x0ad16c00   71       3       java.lang.Character::digit (6 bytes)
+Event: 0.138 Thread 0x0ad16c00 nmethod 71 0x100dc3c8 code [0x100dc500, 0x100dc6d8]
+Event: 0.138 Thread 0x0ad16c00   72       3       java.lang.Character::digit (10 bytes)
+Event: 0.138 Thread 0x0ad16c00 nmethod 72 0x100dc088 code [0x100dc1a0, 0x100dc318]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (7 events):
+Event: 0.026 Thread 0x0838cc00 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x3c4c6eb0) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\shar
+Event: 0.026 Thread 0x0838cc00 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x3c4c7180) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\share\vm\prims\jni.cpp
+Event: 0.125 Thread 0x0838cc00 Exception <a 'java/security/PrivilegedActionException'> (0x3c5d63b0) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\share\vm\prims\jvm.cpp, line 1502]
+Event: 0.125 Thread 0x0838cc00 Exception <a 'java/security/PrivilegedActionException'> (0x3c5d65b0) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\share\vm\prims\jvm.cpp, line 1502]
+Event: 0.131 Thread 0x0838cc00 Exception <a 'java/io/IOException'> (0x3c61b990) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\share\vm\prims\jni.cpp, line 710]
+Event: 0.131 Thread 0x0838cc00 Exception <a 'java/io/IOException'> (0x3c61bc98) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\share\vm\prims\jni.cpp, line 710]
+Event: 0.131 Thread 0x0838cc00 Exception <a 'java/io/IOException'> (0x3c61bf00) thrown at [C:\re\workspace\8-2-build-windows-i586-cygwin\jdk8u231\13620\hotspot\src\share\vm\prims\jni.cpp, line 710]
+
+Events (10 events):
+Event: 0.135 loading class java/io/DataInput done
+Event: 0.135 loading class java/io/ObjectInput done
+Event: 0.135 loading class mercio/MercObjectStreamConstants
+Event: 0.135 loading class mercio/MercObjectStreamConstants done
+Event: 0.136 loading class java/lang/Void
+Event: 0.136 loading class java/lang/Void done
+Event: 0.137 loading class com/hpe/lr/java/replay/ScriptContainer
+Event: 0.137 loading class com/hpe/lr/java/replay/ScriptContainer done
+Event: 0.137 loading class Actions
+Event: 0.137 loading class Actions done
+
+
+Dynamic libraries:
+0x004e0000 - 0x004ea000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\HP.Utt.StandaloneDebugger.exe
+0x77210000 - 0x773ac000 	C:\Windows\SYSTEM32\ntdll.dll
+0x73660000 - 0x736b3000 	C:\Windows\SYSTEM32\MSCOREE.DLL
+0x75e70000 - 0x75f50000 	C:\Windows\System32\KERNEL32.dll
+0x76370000 - 0x76569000 	C:\Windows\System32\KERNELBASE.dll
+0x761c0000 - 0x7623e000 	C:\Windows\System32\ADVAPI32.dll
+0x75d50000 - 0x75e10000 	C:\Windows\System32\msvcrt.dll
+0x751c0000 - 0x75239000 	C:\Windows\System32\sechost.dll
+0x75f50000 - 0x7600f000 	C:\Windows\System32\RPCRT4.dll
+0x74870000 - 0x74890000 	C:\Windows\System32\SspiCli.dll
+0x74860000 - 0x7486a000 	C:\Windows\System32\CRYPTBASE.dll
+0x75530000 - 0x75592000 	C:\Windows\System32\bcryptPrimitives.dll
+0x73560000 - 0x735ed000 	C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll
+0x76170000 - 0x761b4000 	C:\Windows\System32\SHLWAPI.dll
+0x74d60000 - 0x74fd8000 	C:\Windows\System32\combase.dll
+0x74c30000 - 0x74d52000 	C:\Windows\System32\ucrtbase.dll
+0x757c0000 - 0x757e3000 	C:\Windows\System32\GDI32.dll
+0x75650000 - 0x757b6000 	C:\Windows\System32\gdi32full.dll
+0x74970000 - 0x749f0000 	C:\Windows\System32\msvcp_win.dll
+0x752a0000 - 0x7543a000 	C:\Windows\System32\USER32.dll
+0x75180000 - 0x75197000 	C:\Windows\System32\win32u.dll
+0x74c00000 - 0x74c25000 	C:\Windows\System32\IMM32.DLL
+0x76010000 - 0x7601f000 	C:\Windows\System32\kernel.appcore.dll
+0x741c0000 - 0x741c8000 	C:\Windows\SYSTEM32\VERSION.dll
+0x6fa80000 - 0x70230000 	C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll
+0x74770000 - 0x74784000 	C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll
+0x746c0000 - 0x7476b000 	C:\Windows\SYSTEM32\ucrtbase_clr0400.dll
+0x6e670000 - 0x6fa7e000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\mscorlib\c7625296f6cee933f010d4fca91738db\mscorlib.ni.dll
+0x76260000 - 0x7635c000 	C:\Windows\System32\ole32.dll
+0x77070000 - 0x77082000 	C:\Windows\System32\CRYPTSP.dll
+0x73750000 - 0x7377f000 	C:\Windows\system32\rsaenh.dll
+0x76a50000 - 0x76a69000 	C:\Windows\System32\bcrypt.dll
+0x74630000 - 0x746b9000 	C:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll
+0x755b0000 - 0x75646000 	C:\Windows\System32\OLEAUT32.dll
+0x6dc10000 - 0x6e665000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System\54b2571744a56946982b651b14ecf5ec\System.ni.dll
+0x6da60000 - 0x6dc03000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Drawing\be669834f42192f2df41ecce88f9816e\System.Drawing.ni.dll
+0x6b490000 - 0x6c2f6000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\e0b5caa9575d51d59093184437b934a9\System.Windows.Forms.ni.dll
+0x6c9b0000 - 0x6d1c8000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Core\23f0546eab993b34e0a4b0ae02c384be\System.Core.ni.dll
+0x6d820000 - 0x6d925000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Configuration\a9130817ab26a9fe787d9c249848c318\System.Configuration.ni.dll
+0x6ad10000 - 0x6b484000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Xml\3348d0a3ec009371d8eae081dbfb8abd\System.Xml.ni.dll
+0x757f0000 - 0x75d43000 	C:\Windows\System32\shell32.dll
+0x76130000 - 0x7616b000 	C:\Windows\System32\cfgmgr32.dll
+0x748e0000 - 0x74969000 	C:\Windows\System32\shcore.dll
+0x76a70000 - 0x7706e000 	C:\Windows\System32\windows.storage.dll
+0x751a0000 - 0x751bc000 	C:\Windows\System32\profapi.dll
+0x74ba0000 - 0x74bf4000 	C:\Windows\System32\powrprof.dll
+0x5afb0000 - 0x5c3b8000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.ServiceModel\b966bc7a63ba6ab25af2cac7ce62b77c\System.ServiceModel.ni.dll
+0x52f10000 - 0x52f30000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\SMDiagnostics\b737aaa27aed54dd033aa4affe99d8e6\SMDiagnostics.ni.dll
+0x52e40000 - 0x52f0c000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Servd1dec626#\e8a6508dceeb05710dcaa8a6acdae55b\System.ServiceModel.Internals.ni.dll
+0x5a550000 - 0x5a824000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\1f46703bc6f88ba5a4a598a42fc2aced\System.Runtime.Serialization.ni.dll
+0x755a0000 - 0x755a6000 	C:\Windows\System32\psapi.dll
+0x5e860000 - 0x5ea1e000 	C:\Windows\SYSTEM32\urlmon.dll
+0x5e630000 - 0x5e85f000 	C:\Windows\SYSTEM32\iertutil.dll
+0x66470000 - 0x665ef000 	C:\Windows\SYSTEM32\PROPSYS.dll
+0x663a0000 - 0x66458000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Transactions\d6bc47a480ccaf237938e2b9a7a322f0\System.Transactions.ni.dll
+0x66350000 - 0x6639c000 	C:\Windows\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll
+0x73250000 - 0x73278000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\cci_debugger.dll
+0x6a3e0000 - 0x6a3f5000 	C:\Windows\SYSTEM32\VCRUNTIME140.dll
+0x73210000 - 0x7324c000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\driver.dll
+0x73610000 - 0x73618000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\wrapicu.dll
+0x73790000 - 0x7379c000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\cci_debugger_ext.dll
+0x6a140000 - 0x6a1ad000 	C:\Windows\SYSTEM32\MSVCP140.dll
+0x72430000 - 0x7243c000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lr_exp.dll
+0x5ca30000 - 0x5ca54000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mosifs32.dll
+0x6c590000 - 0x6c59a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\thrdutil.dll
+0x73030000 - 0x7303b000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\cyclic_ds.dll
+0x70fa0000 - 0x70fb3000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libresponse.dll
+0x75e10000 - 0x75e6f000 	C:\Windows\System32\WS2_32.dll
+0x70f70000 - 0x70fa0000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mchan.dll
+0x59770000 - 0x5977a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mlib_ds.dll
+0x591f0000 - 0x591fb000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\msg_handler.dll
+0x54910000 - 0x54928000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\config.dll
+0x70eb0000 - 0x70ed2000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\two_way_comm.dll
+0x70ee0000 - 0x70f6d000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\launcher.dll
+0x54550000 - 0x54581000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\comm_util.dll
+0x546e0000 - 0x546e8000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\xdr.dll
+0x58e40000 - 0x58e50000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libxdrutil.dll
+0x70e90000 - 0x70ea4000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mlogger.dll
+0x59830000 - 0x59952000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icuuc55.dll
+0x73020000 - 0x7302a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\rtc_client.dll
+0x71e30000 - 0x71fb1000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dbghelp.dll
+0x74190000 - 0x741b4000 	C:\Windows\SYSTEM32\USERENV.dll
+0x741d0000 - 0x74203000 	C:\Windows\SYSTEM32\IPHLPAPI.DLL
+0x54520000 - 0x54529000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libmemmap.dll
+0x72370000 - 0x72378000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\merc_uuid.dll
+0x70e60000 - 0x70e85000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libgd.dll
+0x70e50000 - 0x70e57000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libpvc.dll
+0x70e30000 - 0x70e45000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\security_protocols.dll
+0x70e20000 - 0x70e29000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\security_encryption.dll
+0x70e10000 - 0x70e1a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\key_storage.dll
+0x70e00000 - 0x70e08000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\key_handler.dll
+0x70df0000 - 0x70dfd000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\leader_election.dll
+0x70de0000 - 0x70dea000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libtpq.dll
+0x70dd0000 - 0x70dd7000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mictime.dll
+0x546d0000 - 0x546dd000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\rtc_protocol.dll
+0x70d80000 - 0x70dc6000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lwc_cryptolib.dll
+0x70d70000 - 0x70d7f000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\key_repository.dll
+0x71a40000 - 0x71a64000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dbgcore.DLL
+0x062a0000 - 0x07b58000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icudt55.dll
+0x54960000 - 0x54971000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\parameng.dll
+0x54900000 - 0x5490b000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\run_time_context.dll
+0x70d50000 - 0x70d6c000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\bugslayerutil.dll
+0x5cb40000 - 0x5cc04000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Ente96d83b35#\e410710951a0bb29a9d4408277507116\System.EnterpriseServices.ni.dll
+0x62130000 - 0x62171000 	C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Ente96d83b35#\e410710951a0bb29a9d4408277507116\System.EnterpriseServices.Wrapper.dll
+0x66320000 - 0x66341000 	C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.Wrapper.dll
+0x73c70000 - 0x73ceb000 	C:\Windows\system32\uxtheme.dll
+0x70d40000 - 0x70d4a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\crash_handler_dlg.dll
+0x707c0000 - 0x70c50000 	C:\Windows\SYSTEM32\mfc140u.dll
+0x769c0000 - 0x76a41000 	C:\Windows\System32\clbcatq.dll
+0x10000000 - 0x10018000 	C:\Program Files (x86)\Micro Focus\LoadRunner\al_agent\bin\lrcrashhandler.dll
+0x70d30000 - 0x70d3a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\vusr_log.dll
+0x727c0000 - 0x727e8000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\trans.dll
+0x72340000 - 0x72368000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\trans_server.dll
+0x72310000 - 0x72335000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\libdatatypes.dll
+0x722a0000 - 0x722c2000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\data_types_ifs.dll
+0x72290000 - 0x72298000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ipng_utils.dll
+0x71b20000 - 0x71b2a000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\timediff_ext.dll
+0x722d0000 - 0x722ea000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\wrapzlib.dll
+0x71b10000 - 0x71b19000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\jrequestor_srv.dll
+0x71b00000 - 0x71b0b000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\dc_requests.dll
+0x70d20000 - 0x70d27000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\zext.dll
+0x70790000 - 0x707c0000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\java_int.dll
+0x70d10000 - 0x70d20000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\jenvutils.dll
+0x727a0000 - 0x727c0000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\lrun50.dll
+0x70780000 - 0x7078c000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\java_search.dll
+0x69a30000 - 0x69a38000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x548c0000 - 0x548d4000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\runlogic.dll
+0x727f0000 - 0x727f9000 	C:\Program Files (x86)\Micro Focus\LoadRunner\bin\faserver.dll
+
+VM Arguments:
+jvm_args: -Dmdrv.launcher=1 -Xverify:none -Djava.security.policy=C:\Program Files (x86)\Micro Focus\LoadRunner/classes/security/recorder.policy 
+java_command: <unknown>
+java_class_path (initial): C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\UC02_switch_task_state\;C:\Program Files (x86)\Micro Focus\LoadRunner/classes;C:\Program Files (x86)\Micro Focus\LoadRunner/classes/srv;C:\Program Files (x86)\Micro Focus\LoadRunner/classes/srv/additional_classes;;C:\Program Files (x86)\Micro Focus\LoadRunner/lib/xstream-1.4.10.jar;C:\Program Files (x86)\Micro Focus\LoadRunner/lib/xpp3-1.1.4c.jar;C:\Program Files (x86)\Micro Focus\LoadRunner/lib/common-java-rr.jar;C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\ojdbc8.jar;C:\Users\student\Downloads\123\sqljdbc_6.0\rus\jre8\sqljdbc42.jar;;;;
+Launcher Type: generic
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\OpenJDK\openjdk-11.0.5_10
+PATH=C:\Program Files (x86)\Micro Focus\LoadRunner\bin\NativeBinaries\x86;C:\Program Files (x86)\Micro Focus\LoadRunner\Bin;C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\tulip\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\HPE\NV\lib\shunra\vcat;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.5_10\bin;C:\Users\student\AppData\Local\Microsoft\WindowsApps;
+USERNAME=student
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 11, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17763 (10.0.17763.475)
+
+CPU:total 4 (initial active 4) (4 cores per cpu, 1 threads per core) family 6 model 158 stepping 11, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8036576k(1962784k free), swap 10658016k(2611036k free)
+
+vm_info: Java HotSpot(TM) Server VM (25.231-b11) for windows-x86 JRE (1.8.0_231-b11), built on Oct  5 2019 03:17:31 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Wed Nov 27 14:30:06 2019
+timezone: RTZ 2 (зима)
+elapsed time: 1 seconds (0d 0h 0m 1s)
+

@@ -6,16 +6,14 @@ Action()
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	web_url("learning2.pflb.ru:56902", 
-		"URL=http://learning2.pflb.ru:56902/", 
+	web_url("HomePage", 
+		"URL=http://{URL}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
 		"Snapshot=t67.inf", 
 		"Mode=HTML", 
-		EXTRARES, 
-		"Url=/js/core/jqueryformplugin.js?_=1574684061114", ENDITEM, 
 		LAST);
 
 	web_add_header("A-IM", 
@@ -26,11 +24,11 @@ Action()
 		"1");
 
 	web_url("login", 
-		"URL=http://learning2.pflb.ru:56902/login", 
+		"URL=http://{URL}:{port}/login", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t71.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -38,18 +36,18 @@ Action()
 	lr_start_transaction("UC3_TR1_LOGIN");
 
 	web_add_header("Origin", 
-		"http://learning2.pflb.ru:56902");
+		"http://{URL}:{port}");
 
 	web_add_header("X-Requested-With", 
 		"XMLHttpRequest");
 
-	lr_think_time(14);
+	lr_think_time(10);
 
-	web_submit_data("login_2", 
-		"Action=http://learning2.pflb.ru:56902/api/login", 
+	web_submit_data("/api/login", 
+		"Action=http://{URL}:{port}/api/login", 
 		"Method=POST", 
 		"TargetFrame=", 
-		"Referer=http://learning2.pflb.ru:56902/login", 
+		"Referer=http://{URL}:{port}/login", 
 		"Snapshot=t72.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
@@ -68,14 +66,14 @@ Action()
 		"1");
 
 	web_add_cookie("filterSetting="
-		"%7B%22page%22%3A%22http%3A%2F%2Flearning2.pflb.ru%3A56902%2F%23tickets%3Fstate%3Dopened%26page%3D1%22%2C%22smho%22%3Anull%2C%22dateStart%22%3A%22%22%2C%22dateEnd%22%3A%22%22%2C%22cat1%22%3Anull%2C%22cat2%22%3Anull%2C%22cat3%22%3Anull%2C%22cat4%22%3Anull%2C%22theme%22%3Anull%2C%22engineer%22%3Anull%2C%22location%22%3Anull%2C%22division%22%3Anull%2C%22overdue%22%3Afalse%2C%22filters%22%3A%7B%22newCheckbox%22%3Atrue%2C%22appointedCheckbox%22%3Atrue%2C%22performedCheckbox%22%3Atrue%2C%22controlCheckbo"
+		"%7B%22page%22%3A%22http%3A%2F%2Flearning2.pflb.ru%3A{port}%2F%23tickets%3Fstate%3Dopened%26page%3D1%22%2C%22smho%22%3Anull%2C%22dateStart%22%3A%22%22%2C%22dateEnd%22%3A%22%22%2C%22cat1%22%3Anull%2C%22cat2%22%3Anull%2C%22cat3%22%3Anull%2C%22cat4%22%3Anull%2C%22theme%22%3Anull%2C%22engineer%22%3Anull%2C%22location%22%3Anull%2C%22division%22%3Anull%2C%22overdue%22%3Afalse%2C%22filters%22%3A%7B%22newCheckbox%22%3Atrue%2C%22appointedCheckbox%22%3Atrue%2C%22performedCheckbox%22%3Atrue%2C%22controlCheckbo"
 		"x%22%3Atrue%7D%7D; DOMAIN=learning2.pflb.ru");
 
-	web_url("learning2.pflb.ru:56902_2", 
-		"URL=http://learning2.pflb.ru:56902/", 
+	web_url("Homepage", 
+		"URL=http://{URL}:{port}/", 
 		"TargetFrame=", 
 		"Resource=0", 
-		"Referer=http://learning2.pflb.ru:56902/login", 
+		"Referer=http://{URL}:{port}/login", 
 		"Snapshot=t73.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -83,53 +81,53 @@ Action()
 	web_add_auto_header("X-Requested-With", 
 		"XMLHttpRequest");
 
-	web_url("checkLogin", 
-		"URL=http://learning2.pflb.ru:56902/api/checkLogin", 
+	web_url("/api/checkLogin", 
+		"URL=http://{URL}:{port}/api/checkLogin", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t74.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	web_url("info", 
-		"URL=http://learning2.pflb.ru:56902/api/user/info", 
+	web_url("/api/user/info", 
+		"URL=http://{URL}:{port}/api/user/info", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t75.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	web_url("4", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/countByState/4", 
+	web_url("/api/ticket/countByState/4", 
+		"URL=http://{URL}:{port}/api/ticket/countByState/4", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t76.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	web_url("countByState", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/countByState/", 
+	web_url("/api/ticket/countByState/", 
+		"URL=http://{URL}:{port}/api/ticket/countByState/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t77.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	web_custom_request("ticket", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/?state=-1,0,1,5&page=0&size=10", 
+	web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10", 
+		"URL=http://{URL}:{port}/api/ticket/?state=-1,0,1,5&page=0&size=10", 
 		"Method=GET", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t78.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=utf-8", 
@@ -139,12 +137,12 @@ Action()
 
 	lr_start_transaction("UC3_TR2_SELECT_TASKS");
 
-	web_url("countByState_2", 
-		"URL=http://learning2.pflb.ru:56902/api/task/countByState/", 
+	web_url("/api/task/countByState/", 
+		"URL=http://{URL}:{port}/api/task/countByState/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t13.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -157,13 +155,13 @@ Action()
         "Scope=Body",
         "LAST");
 
-	web_custom_request("task", 
-		"URL=http://learning2.pflb.ru:56902/api/task/?state=1&page=0&size=10", 
+	web_custom_request("/api/task/?state=1&page=0&size=10", 
+		"URL=http://{URL}:{port}/api/task/?state=1&page=0&size=10", 
 		"Method=GET", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t14.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=utf-8", 
@@ -178,52 +176,52 @@ Action()
 	web_add_auto_header("X-Requested-With", 
 		"XMLHttpRequest");
 
-	lr_think_time(11);
+	lr_think_time(10);
 
-	web_url("task.dust", 
-		"URL=http://learning2.pflb.ru:56902/engineer/task/task.dust", 
+	web_url("/engineer/task/task.dust", 
+		"URL=http://{URL}:{port}/engineer/task/task.dust", 
 		"TargetFrame=", 
 		"Resource=1", 
 		"RecContentType=application/octet-stream", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t39.inf", 
 		LAST);
 
-	web_url("task.js", 
-		"URL=http://learning2.pflb.ru:56902/engineer/task/task.js", 
+	web_url("/engineer/task/task.js", 
+		"URL=http://{URL}:{port}/engineer/task/task.js", 
 		"TargetFrame=", 
 		"Resource=1", 
 		"RecContentType=application/javascript", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t40.inf", 
 		LAST);
 
-	web_url("149376", 
-		"URL=http://learning2.pflb.ru:56902/api/task/{TaskID}", 
+	web_url("/api/task/{TaskID}", 
+		"URL=http://{URL}:{port}/api/task/{TaskID}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t41.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	web_url("checkLogin_4", 
-		"URL=http://learning2.pflb.ru:56902/api/checkLogin", 
+	web_url("/api/checkLogin", 
+		"URL=http://{URL}:{port}/api/checkLogin", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t42.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	web_url("comment_2", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/{TaskID}/comment/", 
+	web_url("/api/ticket/{TaskID}/comment/", 
+		"URL=http://{URL}:{port}/api/ticket/{TaskID}/comment/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t43.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -233,9 +231,9 @@ Action()
 	lr_start_transaction("UC3_TR4_ADDFILE");
 
 	web_add_auto_header("Origin", 
-		"http://learning2.pflb.ru:56902");
+		"http://{URL}:{port}");
 
-	lr_think_time(28);
+	lr_think_time(10);
 	
 	web_reg_save_param_json(
         "ParamName=fileID",
@@ -244,13 +242,13 @@ Action()
         "Scope=Body",
         "LAST");
 
-	web_submit_data("file", 
-		"Action=http://learning2.pflb.ru:56902/api/ticket/file/", 
+	web_submit_data("/api/ticket/file/", 
+		"Action=http://{URL}:{port}/api/ticket/file/", 
 		"Method=POST", 
 		"EncType=multipart/form-data", 
 		"TargetFrame=", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t44.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
@@ -259,17 +257,17 @@ Action()
 
 	lr_end_transaction("UC3_TR4_ADDFILE",LR_AUTO);
 
-	lr_think_time(26);
+	lr_think_time(10);
 
 	lr_start_transaction("UC3_TR5_SUBMIT_COMMENT");
 
-	web_custom_request("comment_3", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/{TaskID}/comment/", 
+	web_custom_request("/api/ticket/{TaskID}/comment/", 
+		"URL=http://{URL}:{port}/api/ticket/{TaskID}/comment/", 
 		"Method=POST", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t45.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=UTF-8", 
@@ -278,12 +276,12 @@ Action()
 
 	web_revert_auto_header("Origin");
 
-	web_url("comment_4", 
-		"URL=http://learning2.pflb.ru:56902/api/ticket/{TaskID}/comment/", 
+	web_url("/api/ticket/{TaskID}/comment/", 
+		"URL=http://{URL}:{port}/api/ticket/{TaskID}/comment/", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=application/json", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t46.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -292,11 +290,11 @@ Action()
 
 	lr_start_transaction("UC1_TR6_LOGOUT");
 
-	web_url("logout", 
-		"URL=http://learning2.pflb.ru:56902/api/logout", 
+	web_url("/api/logout", 
+		"URL=http://{URL}:{port}/api/logout", 
 		"TargetFrame=", 
 		"Resource=0", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t95.inf", 
 		"Mode=HTML", 
 		LAST);
@@ -306,12 +304,12 @@ Action()
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	web_url("login_3", 
-		"URL=http://learning2.pflb.ru:56902/login", 
+	web_url("/login", 
+		"URL=http://{URL}:{port}/login", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://learning2.pflb.ru:56902/", 
+		"Referer=http://{URL}:{port}/", 
 		"Snapshot=t96.inf", 
 		"Mode=HTML", 
 		LAST);

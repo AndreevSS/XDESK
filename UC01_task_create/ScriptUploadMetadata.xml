@@ -15,10 +15,14 @@
     <FileEntry Name="UC01_task_create.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="UserData.dat" Filter="2" />
+    <FileEntry Name="host.dat" Filter="2" />
     <FileEntry Name="dist_ru (2)(1).zip" Filter="2" />
     <FileEntry Name="testtext.dat" Filter="2" />
     <FileEntry Name="combined_UC01_task_create.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="106554764440.idx" Filter="1" />
+    <FileEntry Name="113248098440.idx" Filter="1" />
+    <FileEntry Name="158326448440.idx" Filter="1" />
     <FileEntry Name="206196772440.idx" Filter="1" />
     <FileEntry Name="54414995440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
@@ -29,11 +33,13 @@
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="Password.dat" Filter="1" />
+    <FileEntry Name="port.dat" Filter="1" />
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
@@ -43,6 +49,7 @@
     <FileEntry Name="UC01_task_create.c.pickle" Filter="1" />
     <FileEntry Name="UC01_task_create.ci" Filter="1" />
     <FileEntry Name="UC01_task_create.prm.bak" Filter="1" />
+    <FileEntry Name="URL.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />

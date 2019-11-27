@@ -1,0 +1,2 @@
+"{"text":"testdescriptiontest","header":"Сломана кнопка кассы","ticketStateId"
+"":0,"serviceId":"2883","files":[4793],"inventoryNumberId":"null","shopId":"-2"}"
