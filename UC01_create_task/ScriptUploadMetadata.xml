@@ -17,6 +17,11 @@
     <FileEntry Name="host.dat" Filter="2" />
     <FileEntry Name="dist_ru (2)(1).zip" Filter="2" />
     <FileEntry Name="testtext.dat" Filter="2" />
+    <FileEntry Name="combined_UC01_create_task.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="164061652440.idx" Filter="1" />
+    <FileEntry Name="209556321440.idx" Filter="1" />
+    <FileEntry Name="265400800440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -38,6 +43,8 @@
     <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC01_create_task.c.pickle" Filter="1" />
+    <FileEntry Name="UC01_create_task.ci" Filter="1" />
     <FileEntry Name="UC01_task_create.prm.bak" Filter="1" />
     <FileEntry Name="URL.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

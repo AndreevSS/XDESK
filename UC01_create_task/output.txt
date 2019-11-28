@@ -1,9 +1,9 @@
-Virtual User Script started at: 27.11.2019 16:32:51
+Virtual User Script started at: 28.11.2019 11:31:34
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\UC01_task_create\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\UC01_create_task\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -41,7 +41,6 @@ Action.c(17): Found resource "http://learning2.pflb.ru:56902/js/core/polyphills.
 Action.c(17): Found resource "http://learning2.pflb.ru:56902/js/core/helpers.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
 Action.c(17): Found resource "http://learning2.pflb.ru:56902/js/index.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
 Action.c(17): Found resource "http://learning2.pflb.ru:56902/js/core/materialTable.js" in HTML "http://learning2.pflb.ru:56902/"  	[MsgId: MMSG-26659]
-Action.c(17): Notify: Transaction "http://learning2.pflb.ru:56902/css/core/ee-file-upload.css" will be skipped - could not calculate the transaction time (duration=0.0051, think_time=0.0000, wasted_time=0.0105).
 Action.c(17): web_url("Homepage") was successful, 1043680 body bytes, 5403 header bytes  	[MsgId: MMSG-26386]
 Action.c(27): web_add_header("A-IM") started  	[MsgId: MMSG-26355]
 Action.c(27): web_add_header("A-IM") was successful  	[MsgId: MMSG-26392]
@@ -118,12 +117,12 @@ Action.c(112): web_url("/api/ticket/countByState/4") was successful, 52 body byt
 Action.c(122): web_url("/api/ticket/countByState/") started  	[MsgId: MMSG-26355]
 Action.c(122): web_url("/api/ticket/countByState/") was successful, 218 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(132): web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10") started  	[MsgId: MMSG-26355]
-Action.c(132): web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10") was successful, 12357 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(144): Notify: Transaction "UC1_TR1_LOGIN" ended with a "Pass" status (Duration: 2.5902 Think Time: 1.0005 Wasted Time: 0.1538).
+Action.c(132): web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10") was successful, 12380 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(144): Notify: Transaction "UC1_TR1_LOGIN" ended with a "Pass" status (Duration: 2.4705 Think Time: 0.9998 Wasted Time: 0.1609).
 Action.c(146): Notify: Transaction "UC1_TR2_NEWINC" started.
 Action.c(148): web_url("/api/user/catalog/node/0/children/") started  	[MsgId: MMSG-26355]
 Action.c(148): web_url("/api/user/catalog/node/0/children/") was successful, 907 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(158): Notify: Transaction "UC1_TR2_NEWINC" ended with a "Pass" status (Duration: 0.1329 Wasted Time: 0.0217).
+Action.c(158): Notify: Transaction "UC1_TR2_NEWINC" ended with a "Pass" status (Duration: 0.1859 Wasted Time: 0.0296).
 Action.c(160): Think time - Waiting 1.00 seconds (according to limit).
 Action.c(160): lr_think_time: 1.00 seconds (recorded think time was 10.00 seconds).
 Action.c(162): Notify: Transaction "UC1_TR3_LOCATION" started.
@@ -139,7 +138,7 @@ Action.c(202): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(202): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(210): web_url("/api/user/catalog/treeview?shopid={shopid}") started  	[MsgId: MMSG-26355]
 Action.c(210): web_url("/api/user/catalog/treeview?shopid={shopid}") was successful, 75659 body bytes, 316 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(220): Notify: Transaction "UC1_TR3_LOCATION" ended with a "Pass" status (Duration: 0.5353 Wasted Time: 0.0925).
+Action.c(220): Notify: Transaction "UC1_TR3_LOCATION" ended with a "Pass" status (Duration: 0.5429 Wasted Time: 0.0924).
 Action.c(234): Notify: Transaction "UC1_TR4_QUESTION" started.
 Action.c(236): web_url("/api/user/catalog/node/191/children/") started  	[MsgId: MMSG-26355]
 Action.c(236): web_url("/api/user/catalog/node/191/children/") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
@@ -150,16 +149,14 @@ Action.c(256): web_url("/api/user/catalog/breadcrumbs/191") was successful, 230 
 Action.c(266): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(266): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(273): web_url("/api/inventoryNumbers?serviceId={serviceID}&shopId={shopid}") started  	[MsgId: MMSG-26355]
-Action.c(273): web_url("/api/inventoryNumbers?serviceId={serviceID}&shopId={shopid}") was successful, 236 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(283): Notify: Transaction "UC1_TR4_QUESTION" ended with a "Pass" status (Duration: 0.3899 Wasted Time: 0.0910).
+Action.c(273): web_url("/api/inventoryNumbers?serviceId={serviceID}&shopId={shopid}") was successful, 114 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(283): Notify: Transaction "UC1_TR4_QUESTION" ended with a "Pass" status (Duration: 0.4047 Wasted Time: 0.0939).
 Action.c(285): Think time - Waiting 1.00 seconds (according to limit).
 Action.c(285): lr_think_time: 1.00 seconds (recorded think time was 10.00 seconds).
 Action.c(287): Notify: Transaction "UC1_TR5_INVNUMBER" started.
-Action.c(291): web_reg_save_param_json started  	[MsgId: MMSG-26355]
-Action.c(291): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(304): web_url("/api/inventoryNumbers?shopId={shopid}&serviceId={serviceID}&serviceId={serviceID}&q=&page=0") started  	[MsgId: MMSG-26355]
-Action.c(304): web_url("/api/inventoryNumbers?shopId={shopid}&serviceId={serviceID}&serviceId={serviceID}&q=&page=0") was successful, 236 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(314): Notify: Transaction "UC1_TR5_INVNUMBER" ended with a "Pass" status (Duration: 0.1634 Wasted Time: 0.0244).
+Action.c(304): web_url("/api/inventoryNumbers?shopId={shopid}&serviceId={serviceID}&serviceId={serviceID}&q=&page=0") was successful, 114 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(314): Notify: Transaction "UC1_TR5_INVNUMBER" ended with a "Pass" status (Duration: 0.1502 Wasted Time: 0.0255).
 Action.c(321): Notify: Transaction "UC1_TR6_ADDFILE" started.
 Action.c(323): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(323): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -169,13 +166,13 @@ Action.c(328): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(328): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(335): web_submit_data("file") started  	[MsgId: MMSG-26355]
 Action.c(335): web_submit_data("file") was successful, 1789691 body bytes, 316 header bytes, 1756 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(348): Notify: Transaction "UC1_TR6_ADDFILE" ended with a "Pass" status (Duration: 1.6099 Think Time: 1.0004 Wasted Time: 0.2251).
+Action.c(348): Notify: Transaction "UC1_TR6_ADDFILE" ended with a "Pass" status (Duration: 1.9640 Think Time: 1.0005 Wasted Time: 0.2190).
 Action.c(350): Think time - Waiting 1.00 seconds (according to limit).
 Action.c(350): lr_think_time: 1.00 seconds (recorded think time was 10.00 seconds).
 Action.c(354): Notify: Transaction "UC1_TR7_CREATE" started.
 Action.c(356): web_custom_request("/api/ticket/") started  	[MsgId: MMSG-26355]
-Action.c(356): web_custom_request("/api/ticket/") was successful, 1251 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(373): Notify: Transaction "UC1_TR7_CREATE" ended with a "Pass" status (Duration: 1.1745 Wasted Time: 0.0229).
+Action.c(356): web_custom_request("/api/ticket/") was successful, 1204 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(373): Notify: Transaction "UC1_TR7_CREATE" ended with a "Pass" status (Duration: 0.7868 Wasted Time: 0.0258).
 Action.c(375): Notify: Transaction "UC1_TR8_OKBUTTON" started.
 Action.c(377): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(377): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
@@ -227,7 +224,7 @@ Action.c(418): web_url("/api/ticket/countByState/4") started  	[MsgId: MMSG-2635
 Action.c(418): web_url("/api/ticket/countByState/4") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(428): web_url("/api/ticket/countByState/") started  	[MsgId: MMSG-26355]
 Action.c(428): web_url("/api/ticket/countByState/") was successful, 218 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(438): Notify: Transaction "UC1_TR8_OKBUTTON" ended with a "Pass" status (Duration: 1.4370 Think Time: 0.9999 Wasted Time: 0.1009).
+Action.c(438): Notify: Transaction "UC1_TR8_OKBUTTON" ended with a "Pass" status (Duration: 1.4344 Think Time: 0.9999 Wasted Time: 0.0971).
 Action.c(440): Think time - Waiting 1.00 seconds (according to limit).
 Action.c(440): lr_think_time: 1.00 seconds (recorded think time was 10.00 seconds).
 Action.c(442): Notify: Transaction "UC1_TR9_LOGOUT" started.
@@ -249,7 +246,7 @@ Action.c(458): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js
 Action.c(458): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(458): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(458): web_url("/login") was successful, 873 body bytes, 395 header bytes  	[MsgId: MMSG-26386]
-Action.c(468): Notify: Transaction "UC1_TR9_LOGOUT" ended with a "Pass" status (Duration: 0.1536 Wasted Time: 0.0432).
+Action.c(468): Notify: Transaction "UC1_TR9_LOGOUT" ended with a "Pass" status (Duration: 0.1561 Wasted Time: 0.0451).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
