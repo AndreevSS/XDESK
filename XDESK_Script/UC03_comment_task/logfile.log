@@ -1,0 +1,5 @@
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc03_comment_task\\pre_cci.c: Action.c:60: warning: expression with no effect elided
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc03_comment_task\\pre_cci.c: Action.c:60: error: syntax error; found `)' expecting `;'
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc03_comment_task\\pre_cci.c: Action.c:60: error: illegal statement termination
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc03_comment_task\\pre_cci.c: Action.c:60: error: skipping `)'
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc03_comment_task\\pre_cci.c: c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c:6: error: 3 errors, not writing pre_cci.ci

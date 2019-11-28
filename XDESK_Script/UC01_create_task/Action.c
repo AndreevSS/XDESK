@@ -11,8 +11,7 @@ Action()
 	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
 
 	web_url("Homepage", 
 		"URL=http://{URL}:{port}/", 
@@ -24,12 +23,10 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	web_add_header("A-IM", 
-		"x-bm,gzip");
+	
 
 
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
 
 	web_url("login", 
 		"URL=http://{URL}:{port}/login", 
@@ -43,11 +40,9 @@ Action()
 
 	lr_start_transaction("UC1_TR1_LOGIN");
 
-	web_add_header("Origin", 
-		"http://{URL}:{port}");
+	
 
-	web_add_header("X-Requested-With", 
-		"XMLHttpRequest");
+	
 
 	lr_think_time(10);
 
@@ -64,18 +59,6 @@ Action()
 		"Name=rememberMe", "Value=false", ENDITEM, 
 		LAST);
 
-	web_add_cookie("currentCompany=0; DOMAIN={URL}");
-
-	web_add_cookie("currentUser={Login}; DOMAIN={URL}");
-
-	web_add_cookie("PFLB.pre.login.link=null; DOMAIN={URL}");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
-
-	web_add_cookie("filterSetting="
-		"%7B%22page%22%3A%22http%3A%2F%2F{URL}%3A{port}%2F%23tickets%3Fstate%3Dopened%26page%3D1%22%2C%22smho%22%3Anull%2C%22dateStart%22%3A%22%22%2C%22dateEnd%22%3A%22%22%2C%22cat1%22%3Anull%2C%22cat2%22%3Anull%2C%22cat3%22%3Anull%2C%22cat4%22%3Anull%2C%22theme%22%3Anull%2C%22engineer%22%3Anull%2C%22location%22%3Anull%2C%22division%22%3Anull%2C%22overdue%22%3Afalse%2C%22filters%22%3A%7B%22newCheckbox%22%3Atrue%2C%22appointedCheckbox%22%3Atrue%2C%22performedCheckbox%22%3Atrue%2C%22controlCheckbo"
-		"x%22%3Atrue%7D%7D; DOMAIN={URL}");
 
 	web_url("Homepage_2", 
 		"URL=http://{URL}:{port}/", 
@@ -86,8 +69,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	web_add_auto_header("X-Requested-With", 
-		"XMLHttpRequest");
+	
 
 	web_url("/api/checkLogin", 
 		"URL=http://{URL}:{port}/api/checkLogin", 
@@ -320,8 +302,7 @@ Action()
 
 /*	lr_start_transaction("UC1_TR6_ADDFILE");
 
-	web_add_auto_header("Origin", 
-		"http://{URL}:{port}");
+	
 
 	lr_think_time(10);
 	
@@ -376,12 +357,9 @@ Action()
 
 	lr_start_transaction("UC1_TR8_OKBUTTON");
 
-	web_revert_auto_header("Origin");
-
-	web_revert_auto_header("X-Requested-With");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
+	
+	
 
 	lr_think_time(10);
 
@@ -394,8 +372,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	web_add_auto_header("X-Requested-With", 
-		"XMLHttpRequest");
+	
 
 	web_url("/api/checkLogin", 
 		"URL=http://{URL}:{port}/api/checkLogin", 
@@ -452,10 +429,8 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	web_revert_auto_header("X-Requested-With");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
+	
 
 	web_url("/login", 
 		"URL=http://{URL}:{port}/login", 

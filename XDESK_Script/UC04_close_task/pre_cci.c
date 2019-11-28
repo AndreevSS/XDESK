@@ -1,4 +1,4 @@
-# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c"
+# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 2 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "globals.h" 1
 
@@ -2587,14 +2587,14 @@ void
  
 
 
-# 3 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 3 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 4 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2602,8 +2602,7 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
 
 	web_url("Homepage", 
 		"URL=http://{URL}:{port}/", 
@@ -2615,12 +2614,10 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_add_header("A-IM", 
-		"x-bm,gzip");
+	
 
 
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
 
 	web_url("/login", 
 		"URL=http://{URL}:{port}/login", 
@@ -2634,11 +2631,9 @@ Action()
 
 	lr_start_transaction("UC4_TR1_LOGIN");
 
-	web_add_header("Origin", 
-		"http://{URL}:{port}");
+	
 
-	web_add_header("X-Requested-With", 
-		"XMLHttpRequest");
+	
 
 	lr_think_time(10);
 
@@ -2655,18 +2650,7 @@ Action()
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
 
-	web_add_cookie("currentCompany=0; DOMAIN={URL}");
 
-	web_add_cookie("currentUser={Login}; DOMAIN={URL}");
-
-	web_add_cookie("PFLB.pre.login.link=null; DOMAIN={URL}");
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
-
-	web_add_cookie("filterSetting="
-		"%7B%22page%22%3A%22http%3A%2F%2F{URL}%3A{port}%2F%23tickets%3Fstate%3Dopened%26page%3D1%22%2C%22smho%22%3Anull%2C%22dateStart%22%3A%22%22%2C%22dateEnd%22%3A%22%22%2C%22cat1%22%3Anull%2C%22cat2%22%3Anull%2C%22cat3%22%3Anull%2C%22cat4%22%3Anull%2C%22theme%22%3Anull%2C%22engineer%22%3Anull%2C%22location%22%3Anull%2C%22division%22%3Anull%2C%22overdue%22%3Afalse%2C%22filters%22%3A%7B%22newCheckbox%22%3Atrue%2C%22appointedCheckbox%22%3Atrue%2C%22performedCheckbox%22%3Atrue%2C%22controlCheckbo"
-		"x%22%3Atrue%7D%7D; DOMAIN={URL}");
 
 	web_url("Homepage", 
 		"URL=http://{URL}:{port}/", 
@@ -2677,8 +2661,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	web_add_auto_header("X-Requested-With", 
-		"XMLHttpRequest");
+	
 
 	web_url("/api/checkLogin", 
 		"URL=http://{URL}:{port}/api/checkLogin", 
@@ -2772,8 +2755,7 @@ Action()
 
 	lr_start_transaction("UC4_TR3_OPEN_TASK");
 
-	web_add_auto_header("X-Requested-With", 
-		"XMLHttpRequest");
+	
 
 	lr_think_time(10);
 
@@ -2854,8 +2836,7 @@ Action()
 
 	lr_start_transaction("UC4_TR5_TICKET_CLOSE");
 
-	web_add_header("Origin", 
-		"http://{URL}:{port}");
+	
 
 	lr_think_time(10);
 
@@ -2884,10 +2865,8 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	(web_remove_auto_header("X-Requested-With", "ImplicitGen=Yes", "LAST"));
-
-	web_add_header("Upgrade-Insecure-Requests", 
-		"1");
+	
+	
 
 	web_url("/login", 
 		"URL=http://{URL}:{port}/login", 
@@ -2903,12 +2882,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 5 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc04_close_task\\\\combined_UC04_close_task.c" 2
+# 6 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc04_close_task\\\\combined_UC04_close_task.c" 2
 

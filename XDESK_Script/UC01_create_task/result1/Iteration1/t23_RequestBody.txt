@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"Застрял пассажир","ticketStateId":0,"se"
-"rviceId":"2927","files":[],"inventoryNumberId":"null","shopId":"1"}"
