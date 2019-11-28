@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\UC04_task_close
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\uc04_task_close\\logfile.log
-c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\uc04_task_close\\combined_UC04_task_close.c
-c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\uc04_task_close\\pre_cci.c

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC02_switch_task_state</ScriptName>
+  <Protocol>Java Record Replay</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.java" Filter="2" />
+    <FileEntry Name="Actions.java" Filter="2" />
+    <FileEntry Name="vuser_end.java" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC02_switch_task_state.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC02_switch_task_state.prm" Filter="2" />
+    <FileEntry Name="QueryConnection.dat" Filter="2" />
+    <FileEntry Name="QueryUserData.dat" Filter="2" />
+    <FileEntry Name="121999898440.idx" Filter="1" />
+    <FileEntry Name="139584514440.idx" Filter="1" />
+    <FileEntry Name="140612101440.idx" Filter="1" />
+    <FileEntry Name="170409597440.idx" Filter="1" />
+    <FileEntry Name="172569277440.idx" Filter="1" />
+    <FileEntry Name="209556321440.idx" Filter="1" />
+    <FileEntry Name="Action.c" Filter="1" />
+    <FileEntry Name="Actions.class" Filter="1" />
+    <FileEntry Name="Actions.java.bak" Filter="1" />
+    <FileEntry Name="Actions.java.sed" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="hs_err_pid10640.log" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC02_switch_task_state.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="vuser_end.c" Filter="1" />
+    <FileEntry Name="vuser_init.c" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

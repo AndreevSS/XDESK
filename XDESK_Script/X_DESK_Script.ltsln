@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0-trunk
+Project("F34D876E-6FDC-4AA2-9A11-C2E429ECD0F9") = "UC01_create_task", "UC01_create_task\UC01_create_task.usr", "F34D876E-6FDC-4AA2-9A11-C2E429ECD0F9"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXHN0dWRlbnRcRGVza3RvcFzQndC+0LLQsNGPINC/0LDQv9C60LAgKDIpXEFuZHJlZXYxMjNccGNcdG9naXRcWERFU0tcWERFU0tfU2NyaXB0XFVDMDFfY3JlYXRlX3Rhc2tcVUMwMV9jcmVhdGVfdGFzay51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+VUMwMV9jcmVhdGVfdGFzay51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTExLTI4VDE2OjA4OjAwLjcxODUwMTErMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("5C4478B9-E2B2-49D5-A23E-02498B327F13") = "UC02_switch_task_state", "UC02_switch_task_state\UC02_switch_task_state.usr", "5C4478B9-E2B2-49D5-A23E-02498B327F13"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXHN0dWRlbnRcRGVza3RvcFzQndC+0LLQsNGPINC/0LDQv9C60LAgKDIpXEFuZHJlZXYxMjNccGNcdG9naXRcWERFU0tcWERFU0tfU2NyaXB0XFVDMDJfc3dpdGNoX3Rhc2tfc3RhdGVcVUMwMl9zd2l0Y2hfdGFza19zdGF0ZS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+VUMwMl9zd2l0Y2hfdGFza19zdGF0ZS51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTExLTI4VDE2OjA4OjEwLjAyMTI0NzYrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("3A408159-DD3F-4F94-945B-6C2B81892DFF") = "UC03_comment_task", "UC03_comment_task\UC03_comment_task.usr", "3A408159-DD3F-4F94-945B-6C2B81892DFF"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXHN0dWRlbnRcRGVza3RvcFzQndC+0LLQsNGPINC/0LDQv9C60LAgKDIpXEFuZHJlZXYxMjNccGNcdG9naXRcWERFU0tcWERFU0tfU2NyaXB0XFVDMDNfY29tbWVudF90YXNrXFVDMDNfY29tbWVudF90YXNrLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5VQzAzX2NvbW1lbnRfdGFzay51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTExLTI4VDE2OjA4OjE4LjE4MDYwMTQrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("F5FC78AA-E4D4-41D6-B7EB-5EC68C18B527") = "UC04_close_task", "UC04_close_task\UC04_close_task.usr", "F5FC78AA-E4D4-41D6-B7EB-5EC68C18B527"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXHN0dWRlbnRcRGVza3RvcFzQndC+0LLQsNGPINC/0LDQv9C60LAgKDIpXEFuZHJlZXYxMjNccGNcdG9naXRcWERFU0tcWERFU0tfU2NyaXB0XFVDMDRfY2xvc2VfdGFza1xVQzA0X2Nsb3NlX3Rhc2sudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPlVDMDRfY2xvc2VfdGFzay51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTExLTI4VDE2OjA4OjI0LjcwODgyMTgrMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		F34D876E-6FDC-4AA2-9A11-C2E429ECD0F9.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F34D876E-6FDC-4AA2-9A11-C2E429ECD0F9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F34D876E-6FDC-4AA2-9A11-C2E429ECD0F9.Release|Any CPU.Build.0 = Release|Any CPU
+		F34D876E-6FDC-4AA2-9A11-C2E429ECD0F9.Release|Any CPU.ActiveCfg = Release|Any CPU
+		5C4478B9-E2B2-49D5-A23E-02498B327F13.Debug|Any CPU.Build.0 = Debug|Any CPU
+		5C4478B9-E2B2-49D5-A23E-02498B327F13.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		5C4478B9-E2B2-49D5-A23E-02498B327F13.Release|Any CPU.Build.0 = Release|Any CPU
+		5C4478B9-E2B2-49D5-A23E-02498B327F13.Release|Any CPU.ActiveCfg = Release|Any CPU
+		3A408159-DD3F-4F94-945B-6C2B81892DFF.Debug|Any CPU.Build.0 = Debug|Any CPU
+		3A408159-DD3F-4F94-945B-6C2B81892DFF.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		3A408159-DD3F-4F94-945B-6C2B81892DFF.Release|Any CPU.Build.0 = Release|Any CPU
+		3A408159-DD3F-4F94-945B-6C2B81892DFF.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F5FC78AA-E4D4-41D6-B7EB-5EC68C18B527.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F5FC78AA-E4D4-41D6-B7EB-5EC68C18B527.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F5FC78AA-E4D4-41D6-B7EB-5EC68C18B527.Release|Any CPU.Build.0 = Release|Any CPU
+		F5FC78AA-E4D4-41D6-B7EB-5EC68C18B527.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
