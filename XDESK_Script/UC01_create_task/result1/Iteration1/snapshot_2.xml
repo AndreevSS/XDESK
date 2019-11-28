@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2">
-  <HTTPTask id="29" hostname="learning2.pflb.ru:56902" path="/login" url="http://learning2.pflb.ru:56902/login" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="52717" connectionId="2184" origin="Primary" encodingType="ANSI" startDateTime="2019-11-28T14:40:30.687+03:00" startTime="2777" endTime="2791" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="2" waitTime="4" receiveTime="8" sslNegotiateTime="-1" responseBodySize="1268">
+  <HTTPTask id="29" hostname="learning2.pflb.ru:56902" path="/login" url="http://learning2.pflb.ru:56902/login" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="53603" connectionId="2108" origin="Primary" encodingType="ANSI" startDateTime="2019-11-28T17:44:23.862+03:00" startTime="2711" endTime="2722" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="1" waitTime="4" receiveTime="5" sslNegotiateTime="-1" responseBodySize="1268">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name="Referer" index="0">
@@ -179,7 +179,7 @@
         <HTTPHeaderEntity name="Date" index="11">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxMTo0MDozMCBHTVQ=</ActualData>
+              <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxNDo0NDoyMyBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -187,7 +187,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMjAwIA0KWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZg0KWC1YU1MtUHJvdGVjdGlvbjogMTsgbW9kZT1ibG9jaw0KQ2FjaGUtQ29udHJvbDogbm8tY2FjaGUsIG5vLXN0b3JlLCBtYXgtYWdlPTAsIG11c3QtcmV2YWxpZGF0ZQ0KUHJhZ21hOiBuby1jYWNoZQ0KRXhwaXJlczogMA0KWC1GcmFtZS1PcHRpb25zOiBTQU1FT1JJR0lODQpMYXN0LU1vZGlmaWVkOiBUdWUsIDI3IE5vdiAyMDE4IDE0OjAzOjQzIEdNVA0KQWNjZXB0LVJhbmdlczogYnl0ZXMNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sO2NoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGFuZ3VhZ2U6IHJ1LVJVDQpDb250ZW50LUxlbmd0aDogODczDQpEYXRlOiBUaHUsIDI4IE5vdiAyMDE5IDExOjQwOjMwIEdNVA0KDQo=</ActualData>
+              <ActualData>SFRUUC8xLjEgMjAwIA0KWC1Db250ZW50LVR5cGUtT3B0aW9uczogbm9zbmlmZg0KWC1YU1MtUHJvdGVjdGlvbjogMTsgbW9kZT1ibG9jaw0KQ2FjaGUtQ29udHJvbDogbm8tY2FjaGUsIG5vLXN0b3JlLCBtYXgtYWdlPTAsIG11c3QtcmV2YWxpZGF0ZQ0KUHJhZ21hOiBuby1jYWNoZQ0KRXhwaXJlczogMA0KWC1GcmFtZS1PcHRpb25zOiBTQU1FT1JJR0lODQpMYXN0LU1vZGlmaWVkOiBUdWUsIDI3IE5vdiAyMDE4IDE0OjAzOjQzIEdNVA0KQWNjZXB0LVJhbmdlczogYnl0ZXMNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sO2NoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGFuZ3VhZ2U6IHJ1LVJVDQpDb250ZW50LUxlbmd0aDogODczDQpEYXRlOiBUaHUsIDI4IE5vdiAyMDE5IDE0OjQ0OjIzIEdNVA0KDQo=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -202,7 +202,7 @@
         <IsExternalData>false</IsExternalData>
       </HTTPBody>
     </HTTPResponse>
-    <HTTPTask id="30" hostname="learning2.pflb.ru:56902" path="/css/core/materialize.css" url="http://learning2.pflb.ru:56902/css/core/materialize.css" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="52718" connectionId="2200" origin="HTML" encodingType="ANSI" ordinal="1" startDateTime="2019-11-28T14:40:30.702+03:00" startTime="2792" endTime="2948" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="1" waitTime="31" receiveTime="122" sslNegotiateTime="-1" responseBodySize="177744">
+    <HTTPTask id="30" hostname="learning2.pflb.ru:56902" path="/css/core/materialize.css" url="http://learning2.pflb.ru:56902/css/core/materialize.css" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="53604" connectionId="2172" origin="HTML" encodingType="ANSI" ordinal="1" startDateTime="2019-11-28T17:44:23.874+03:00" startTime="2723" endTime="2771" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="0" waitTime="30" receiveTime="15" sslNegotiateTime="-1" responseBodySize="177744">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -325,7 +325,7 @@
           <HTTPHeaderEntity name="Date" index="4">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxMTo0MDozMCBHTVQ=</ActualData>
+                <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxNDo0NDoyMyBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -333,7 +333,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIA0KTGFzdC1Nb2RpZmllZDogVHVlLCAyNyBOb3YgMjAxOCAxNDowMzo0MyBHTVQNCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpDb250ZW50LVR5cGU6IHRleHQvY3NzO2NoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGVuZ3RoOiAxNzc1NjANCkRhdGU6IFRodSwgMjggTm92IDIwMTkgMTE6NDA6MzAgR01UDQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIA0KTGFzdC1Nb2RpZmllZDogVHVlLCAyNyBOb3YgMjAxOCAxNDowMzo0MyBHTVQNCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpDb250ZW50LVR5cGU6IHRleHQvY3NzO2NoYXJzZXQ9VVRGLTgNCkNvbnRlbnQtTGVuZ3RoOiAxNzc1NjANCkRhdGU6IFRodSwgMjggTm92IDIwMTkgMTQ6NDQ6MjMgR01UDQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -349,7 +349,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="31" hostname="learning2.pflb.ru:56902" path="/js/core/materialize.js" url="http://learning2.pflb.ru:56902/js/core/materialize.js" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="52719" connectionId="2208" origin="HTML" encodingType="ANSI" ordinal="2" startDateTime="2019-11-28T14:40:30.702+03:00" startTime="2792" endTime="2943" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="1" waitTime="3" receiveTime="136" sslNegotiateTime="-1" responseBodySize="346642">
+    <HTTPTask id="31" hostname="learning2.pflb.ru:56902" path="/js/core/materialize.js" url="http://learning2.pflb.ru:56902/js/core/materialize.js" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="53605" connectionId="2180" origin="HTML" encodingType="ANSI" ordinal="2" startDateTime="2019-11-28T17:44:23.874+03:00" startTime="2723" endTime="3220" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="0" waitTime="3" receiveTime="487" sslNegotiateTime="-1" responseBodySize="346642">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -472,7 +472,7 @@
           <HTTPHeaderEntity name="Date" index="4">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxMTo0MDozMCBHTVQ=</ActualData>
+                <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxNDo0NDoyMyBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -480,7 +480,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIA0KTGFzdC1Nb2RpZmllZDogVHVlLCAyNyBOb3YgMjAxOCAxNDowMzo0MyBHTVQNCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2phdmFzY3JpcHQ7Y2hhcnNldD1VVEYtOA0KQ29udGVudC1MZW5ndGg6IDM0NjQ0NA0KRGF0ZTogVGh1LCAyOCBOb3YgMjAxOSAxMTo0MDozMCBHTVQNCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIA0KTGFzdC1Nb2RpZmllZDogVHVlLCAyNyBOb3YgMjAxOCAxNDowMzo0MyBHTVQNCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2phdmFzY3JpcHQ7Y2hhcnNldD1VVEYtOA0KQ29udGVudC1MZW5ndGg6IDM0NjQ0NA0KRGF0ZTogVGh1LCAyOCBOb3YgMjAxOSAxNDo0NDoyMyBHTVQNCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -496,7 +496,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="32" hostname="learning2.pflb.ru:56902" path="/js/page/authorisation.js" url="http://learning2.pflb.ru:56902/js/page/authorisation.js" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="52720" connectionId="2216" origin="HTML" encodingType="ANSI" ordinal="3" startDateTime="2019-11-28T14:40:30.702+03:00" startTime="2792" endTime="2801" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="1" waitTime="7" receiveTime="1" sslNegotiateTime="-1" responseBodySize="4185">
+    <HTTPTask id="32" hostname="learning2.pflb.ru:56902" path="/js/page/authorisation.js" url="http://learning2.pflb.ru:56902/js/page/authorisation.js" ip="94.159.69.182" port="56902" client_ip="192.168.14.227" client_port="53606" connectionId="2188" origin="HTML" encodingType="ANSI" ordinal="3" startDateTime="2019-11-28T17:44:23.874+03:00" startTime="2723" endTime="2752" blockedTime="-1" dnsTime="-1" connectTime="-2" sendTime="0" waitTime="22" receiveTime="6" sslNegotiateTime="-1" responseBodySize="4185">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -619,7 +619,7 @@
           <HTTPHeaderEntity name="Date" index="4">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxMTo0MDozMCBHTVQ=</ActualData>
+                <ActualData>VGh1LCAyOCBOb3YgMjAxOSAxNDo0NDoyMyBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -627,7 +627,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIA0KTGFzdC1Nb2RpZmllZDogVHVlLCAyNyBOb3YgMjAxOCAxNDowMzo0MyBHTVQNCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2phdmFzY3JpcHQ7Y2hhcnNldD1VVEYtOA0KQ29udGVudC1MZW5ndGg6IDM5ODkNCkRhdGU6IFRodSwgMjggTm92IDIwMTkgMTE6NDA6MzAgR01UDQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIA0KTGFzdC1Nb2RpZmllZDogVHVlLCAyNyBOb3YgMjAxOCAxNDowMzo0MyBHTVQNCkFjY2VwdC1SYW5nZXM6IGJ5dGVzDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2phdmFzY3JpcHQ7Y2hhcnNldD1VVEYtOA0KQ29udGVudC1MZW5ndGg6IDM5ODkNCkRhdGU6IFRodSwgMjggTm92IDIwMTkgMTQ6NDQ6MjMgR01UDQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>

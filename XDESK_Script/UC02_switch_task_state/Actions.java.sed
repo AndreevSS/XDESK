@@ -60,6 +60,7 @@ public class Actions
 	   	connection.setAutoCommit(false);
 	   		stmt = connection.createStatement();
 	  	 	rset = stmt.executeQuery(SQL_QUERY);
+	  	 	lr.log_message("Executing Query");
 	  	 	lr.set_transaction_status(lr.PASS);
 	  	 	rset.close();
 	   } catch (SQLException e) {
@@ -84,6 +85,7 @@ public class Actions
     
     public int end() throws Throwable {
     	connection.close();
+    	lr.log_message("Closing connection");
         return 0;
     }
 

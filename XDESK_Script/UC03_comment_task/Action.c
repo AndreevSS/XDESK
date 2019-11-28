@@ -228,7 +228,7 @@ Action()
 
 	lr_end_transaction("UC3_TR3_OPEN_TASK",LR_AUTO);
 
-	lr_start_transaction("UC3_TR4_ADDFILE");
+	/*lr_start_transaction("UC3_TR4_ADDFILE");
 
 	web_add_auto_header("Origin", 
 		"http://{URL}:{port}");
@@ -242,7 +242,7 @@ Action()
         "Scope=Body",
         "LAST");
 
-	/*web_submit_data("/api/ticket/file/", 
+	web_submit_data("/api/ticket/file/", 
 		"Action=http://{URL}:{port}/api/ticket/file/", 
 		"Method=POST", 
 		"EncType=multipart/form-data", 
@@ -253,10 +253,10 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=files", "Value=dist_ru (2)(1).zip", "File=Yes", ENDITEM, 
-		LAST);*/
+		LAST);
 
 	lr_end_transaction("UC3_TR4_ADDFILE",LR_AUTO);
-
+*/
 	lr_think_time(10);
 
 	lr_start_transaction("UC3_TR5_SUBMIT_COMMENT");
@@ -271,7 +271,7 @@ Action()
 		"Snapshot=t45.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=UTF-8", 
-		"Body={\"text\":\"{TestCommentary}\",\"files\":[{fileID}]}", 
+		"Body={\"text\":\"{TestCommentary}\",\"files\":[]}", 
 		LAST);
 
 	web_revert_auto_header("Origin");

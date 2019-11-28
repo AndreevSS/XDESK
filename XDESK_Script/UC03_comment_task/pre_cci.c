@@ -1,4 +1,4 @@
-# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c"
+# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
+# 1 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
+# 2 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
 
 # 1 "globals.h" 1
 
@@ -2587,14 +2587,14 @@ void
  
 
 
-# 3 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
+# 3 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
+# 4 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2827,35 +2827,8 @@ Action()
 
 	lr_end_transaction("UC3_TR3_OPEN_TASK",2);
 
-	lr_start_transaction("UC3_TR4_ADDFILE");
-
-	web_add_auto_header("Origin", 
-		"http://{URL}:{port}");
-
-	lr_think_time(10);
-	
-	web_reg_save_param_json(
-        "ParamName=fileID",
-        "QueryString=$..id",
-        "SEARCH_FILTERS",
-        "Scope=Body",
-        "LAST");
-
-	web_submit_data("/api/ticket/file/", 
-		"Action=http://{URL}:{port}/api/ticket/file/", 
-		"Method=POST", 
-		"EncType=multipart/form-data", 
-		"TargetFrame=", 
-		"RecContentType=application/json", 
-		"Referer=http://{URL}:{port}/", 
-		"Snapshot=t44.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=files", "Value=dist_ru (2)(1).zip", "File=Yes", "ENDITEM", 
-		"LAST");
-
-	lr_end_transaction("UC3_TR4_ADDFILE",2);
-
+	 
+# 260 "Action.c"
 	lr_think_time(10);
 
 	lr_start_transaction("UC3_TR5_SUBMIT_COMMENT");
@@ -2870,7 +2843,7 @@ Action()
 		"Snapshot=t45.inf", 
 		"Mode=HTML", 
 		"EncType=application/json; charset=UTF-8", 
-		"Body={\"text\":\"{TestCommentary}\",\"files\":[{fileID}]}", 
+		"Body={\"text\":\"{TestCommentary}\",\"files\":[]}", 
 		"LAST");
 
 	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
@@ -2917,12 +2890,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
+# 5 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
+# 6 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc03_comment_task\\\\combined_UC03_comment_task.c" 2
 

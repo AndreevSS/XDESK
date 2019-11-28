@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC3_TR1_LOGIN__*delimiter*__UC3_TR2_SELECT_TASKS__*delimiter*__UC3_TR3_OPEN_TASK__*delimiter*__UC3_TR4_ADDFILE__*delimiter*__UC3_TR5_SUBMIT_COMMENT__*delimiter*__UC1_TR6_LOGOUT"
+Order="UC3_TR1_LOGIN__*delimiter*__UC3_TR2_SELECT_TASKS__*delimiter*__UC3_TR3_OPEN_TASK__*delimiter*__UC3_TR5_SUBMIT_COMMENT__*delimiter*__UC1_TR6_LOGOUT"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -61,7 +61,6 @@ ActiveRunName=result1
 UC3_TR1_LOGIN=
 UC3_TR2_SELECT_TASKS=
 UC3_TR3_OPEN_TASK=
-UC3_TR4_ADDFILE=
 UC3_TR5_SUBMIT_COMMENT=
 UC1_TR6_LOGOUT=
 [ManuallyExtraFiles]

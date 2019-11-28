@@ -1,13 +1,16 @@
-Virtual User Script started at: 28.11.2019 16:29:59
+Virtual User Script started at: 28.11.2019 17:27:43
 Starting action vuser_init.
 JDBC Connection Successful
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Actions.
+Executing Query
+Executing Query
 Ending action Actions.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
+Closing connection
 Ending action vuser_end.
 Vuser Terminated.

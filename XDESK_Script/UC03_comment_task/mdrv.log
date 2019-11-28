@@ -1,9 +1,9 @@
-Virtual User Script started at: 28.11.2019 14:41:44
+Virtual User Script started at: 28.11.2019 17:44:40
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (авг 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\UC03_comment_task\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\XDESK_Script\UC03_comment_task\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -113,18 +113,18 @@ Action.c(94): web_url("/api/user/info") was successful, 277 body bytes, 316 head
 Action.c(104): web_url("/api/ticket/countByState/4") started  	[MsgId: MMSG-26355]
 Action.c(104): web_url("/api/ticket/countByState/4") was successful, 52 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(114): web_url("/api/ticket/countByState/") started  	[MsgId: MMSG-26355]
-Action.c(114): web_url("/api/ticket/countByState/") was successful, 217 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(114): web_url("/api/ticket/countByState/") was successful, 218 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(124): web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10") started  	[MsgId: MMSG-26355]
-Action.c(124): web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10") was successful, 14353 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(136): Notify: Transaction "UC3_TR1_LOGIN" ended with a "Pass" status (Duration: 2.5834 Wasted Time: 0.1940).
+Action.c(124): web_custom_request("/api/ticket/?state=-1,0,1,5&page=0&size=10") was successful, 12372 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(136): Notify: Transaction "UC3_TR1_LOGIN" ended with a "Pass" status (Duration: 1.5672 Wasted Time: 0.1657).
 Action.c(138): Notify: Transaction "UC3_TR2_SELECT_TASKS" started.
 Action.c(140): web_url("/api/task/countByState/") started  	[MsgId: MMSG-26355]
-Action.c(140): web_url("/api/task/countByState/") was successful, 171 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(140): web_url("/api/task/countByState/") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(150): web_reg_save_param_json started  	[MsgId: MMSG-26355]
 Action.c(150): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
 Action.c(158): web_custom_request("/api/task/?state=1&page=0&size=10") started  	[MsgId: MMSG-26355]
-Action.c(158): web_custom_request("/api/task/?state=1&page=0&size=10") was successful, 15422 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(170): Notify: Transaction "UC3_TR2_SELECT_TASKS" ended with a "Pass" status (Duration: 0.9308 Wasted Time: 0.0513).
+Action.c(158): web_custom_request("/api/task/?state=1&page=0&size=10") was successful, 15116 body bytes, 316 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(170): Notify: Transaction "UC3_TR2_SELECT_TASKS" ended with a "Pass" status (Duration: 0.7806 Wasted Time: 0.0487).
 Action.c(174): Notify: Transaction "UC3_TR3_OPEN_TASK" started.
 Action.c(176): web_add_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
 Action.c(176): web_add_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
@@ -133,29 +133,21 @@ Action.c(181): web_url("/engineer/task/task.dust") was successful, 16080 body by
 Action.c(190): web_url("/engineer/task/task.js") started  	[MsgId: MMSG-26355]
 Action.c(190): web_url("/engineer/task/task.js") was successful, 19050 body bytes, 385 header bytes  	[MsgId: MMSG-26386]
 Action.c(199): web_url("/api/task/{TaskID}") started  	[MsgId: MMSG-26355]
-Action.c(199): web_url("/api/task/{TaskID}") was successful, 1774 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(199): web_url("/api/task/{TaskID}") was successful, 1483 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(209): web_url("/api/checkLogin") started  	[MsgId: MMSG-26355]
 Action.c(209): web_url("/api/checkLogin") was successful, 92 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(219): web_url("/api/ticket/{TaskID}/comment/") started  	[MsgId: MMSG-26355]
 Action.c(219): web_url("/api/ticket/{TaskID}/comment/") was successful, 2 body bytes, 316 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(229): Notify: Transaction "UC3_TR3_OPEN_TASK" ended with a "Pass" status (Duration: 2.3020 Wasted Time: 0.1293).
-Action.c(231): Notify: Transaction "UC3_TR4_ADDFILE" started.
-Action.c(233): web_add_auto_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(233): web_add_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(238): web_reg_save_param_json started  	[MsgId: MMSG-26355]
-Action.c(238): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
-Action.c(245): web_submit_data("/api/ticket/file/") started  	[MsgId: MMSG-26355]
-Action.c(245): web_submit_data("/api/ticket/file/") was successful, 1789692 body bytes, 316 header bytes, 1756 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(258): Notify: Transaction "UC3_TR4_ADDFILE" ended with a "Pass" status (Duration: 0.8798 Wasted Time: 0.2653).
+Action.c(229): Notify: Transaction "UC3_TR3_OPEN_TASK" ended with a "Pass" status (Duration: 0.9552 Wasted Time: 0.1201).
 Action.c(262): Notify: Transaction "UC3_TR5_SUBMIT_COMMENT" started.
 Action.c(264): web_custom_request("/api/ticket/{TaskID}/comment/") started  	[MsgId: MMSG-26355]
-Action.c(264): web_custom_request("/api/ticket/{TaskID}/comment/") was successful, 288 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(264): web_custom_request("/api/ticket/{TaskID}/comment/") was successful, 123 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(277): web_remove_auto_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(277): Previous automatically added web header for "Origin" removed  	[MsgId: MMSG-26587]
-Action.c(277): web_remove/revert_auto_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(277): Warning -26590: web_remove/revert_auto_header for "Origin" had no effect  	[MsgId: MWAR-26590]
+Action.c(277): web_remove/revert_auto_header("Origin") highest severity level was "warning"  	[MsgId: MMSG-26391]
 Action.c(279): web_url("/api/ticket/{TaskID}/comment/") started  	[MsgId: MMSG-26355]
-Action.c(279): web_url("/api/ticket/{TaskID}/comment/") was successful, 337 body bytes, 316 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(289): Notify: Transaction "UC3_TR5_SUBMIT_COMMENT" ended with a "Pass" status (Duration: 0.9411 Wasted Time: 0.0494).
+Action.c(279): web_url("/api/ticket/{TaskID}/comment/") was successful, 172 body bytes, 316 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(289): Notify: Transaction "UC3_TR5_SUBMIT_COMMENT" ended with a "Pass" status (Duration: 0.4851 Wasted Time: 0.0637).
 Action.c(291): Notify: Transaction "UC1_TR6_LOGOUT" started.
 Action.c(293): web_url("/api/logout") started  	[MsgId: MMSG-26355]
 Action.c(293): web_url("/api/logout") was successful, 0 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
@@ -175,7 +167,7 @@ Action.c(307): Resource "http://learning2.pflb.ru:56902/js/core/jquery.cookie.js
 Action.c(307): Resource "http://learning2.pflb.ru:56902/js/core/materialize.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(307): Resource "http://learning2.pflb.ru:56902/js/page/authorisation.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(307): web_url("/login") was successful, 873 body bytes, 395 header bytes  	[MsgId: MMSG-26386]
-Action.c(317): Notify: Transaction "UC1_TR6_LOGOUT" ended with a "Pass" status (Duration: 0.1897 Wasted Time: 0.0562).
+Action.c(317): Notify: Transaction "UC1_TR6_LOGOUT" ended with a "Pass" status (Duration: 0.1485 Wasted Time: 0.0464).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

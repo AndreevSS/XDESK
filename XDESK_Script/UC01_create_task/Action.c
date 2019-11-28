@@ -318,7 +318,7 @@ Action()
 			lr_param_sprintf("InventoryNumber",lr_paramarr_random("allInventoryNumbers"));
 		};
 
-	lr_start_transaction("UC1_TR6_ADDFILE");
+/*	lr_start_transaction("UC1_TR6_ADDFILE");
 
 	web_add_auto_header("Origin", 
 		"http://{URL}:{port}");
@@ -332,7 +332,7 @@ Action()
         "Scope=Body",
         "LAST");
 
-/*	web_submit_data("file", 
+	web_submit_data("file", 
 		"Action=http://{URL}:{port}/api/ticket/file/", 
 		"Method=POST", 
 		"EncType=multipart/form-data", 
@@ -343,9 +343,11 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=files", "Value=dist_ru (2)(1).zip", "File=Yes", ENDITEM, 
-		LAST);*/ //{fileID}
+		LAST); //{fileID}
 
 	lr_end_transaction("UC1_TR6_ADDFILE",LR_AUTO);
+	
+	*/
 
 	lr_think_time(10);
 
