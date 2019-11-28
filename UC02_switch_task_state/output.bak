@@ -1,11 +1,10 @@
-Virtual User Script started at: 27.11.2019 15:53:19
+Virtual User Script started at: 28.11.2019 11:05:34
 Starting action vuser_init.
 JDBC Connection Successful
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Actions.
-Actions.java(48): Error: Failed to end Transaction "Database_Query_2" (by name). Please check that you made a call to start transaction operation.
 Ending action Actions.
 Ending iteration 1.
 Ending Vuser...
