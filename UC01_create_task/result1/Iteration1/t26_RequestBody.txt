@@ -1,0 +1,2 @@
+"{"text":"testdescriptiontest","header":"Шкаф издаёт посторонние звук�"
+"�","ticketStateId":0,"serviceId":"2983","files":[4807],"inventoryNumberId":"8","shopId":"4"}"
