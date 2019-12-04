@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Замена кол-во плиток потолка, "
-"замена направляющих подвисного потолка","ticketStateId":0,""
-"serviceId":"2863","files":[],"inventoryNumberId":"null","shopId":"1"}"

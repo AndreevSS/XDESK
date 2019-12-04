@@ -12,6 +12,8 @@ Comment_task()
 		"Mode=HTML", 
 		LAST);
 	
+	BeforeRequest();
+	
 	web_reg_save_param_json(
         "ParamName=TaskIDs",
         "QueryString=$..parentId",
@@ -31,6 +33,8 @@ Comment_task()
 		"Mode=HTML", 
 		"EncType=application/json; charset=utf-8", 
 		LAST);
+	
+	AfterRequest("/api/task/state1page0size10");
 
 	lr_end_transaction("UC3_TR2_SELECT_TASKS",LR_AUTO);
 	

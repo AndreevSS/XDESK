@@ -1,0 +1,30 @@
+version: "2"
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: always
+    ports:
+      - 3000:3000
+    networks:
+      - lrun
+    volumes:
+     - /var/lib/grafana 
+  influxdb:
+    image: influxdb
+    container_name: influxdb
+    restart: always
+    ports:
+      - 8086:8086
+    networks:
+      - lrun
+    environment:
+        INFLUXDB_DB: inflxdb
+        INFLUXDB_ADMIN_USER: lgn
+        INFLUXDB_ADMIN_PASSWORD: pwd 
+    volumes:
+     - /var/lib/influxdb
+     
+     
+networks:
+  lrun:

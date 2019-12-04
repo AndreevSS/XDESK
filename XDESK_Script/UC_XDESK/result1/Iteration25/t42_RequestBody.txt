@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Механическое повреждение две"
-"ри (деформирована, сломаны петли)","ticketStateId":0,"serviceId":"2"
-"866","files":[],"inventoryNumberId":"null","shopId":"-2"}"

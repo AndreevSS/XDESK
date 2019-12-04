@@ -1,2 +1,0 @@
-"loadrunner,label=/api/ticket,responseCode=500,success=false responseTime=72,bytes=546,sentByte"
-"s=603,URL="learning2.pflb.ru" 1575461026987543000"

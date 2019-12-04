@@ -1,1 +1,1 @@
-{"stateId":4,"stateName":"Отменен","count":3}
+{"code":500,"httpStatus":"INTERNAL_SERVER_ERROR","message":"I/O error: Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)"}

@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Вентиляция издает посторонни"
-"е звуки/запахи","ticketStateId":0,"serviceId":"2937","files":[],"inventoryNumberId"
-"":"null","shopId":"-1"}"

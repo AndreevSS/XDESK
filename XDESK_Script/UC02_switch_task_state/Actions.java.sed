@@ -37,9 +37,10 @@ public class Actions
     } 
 
     public int action() throws ClassNotFoundException, SQLException {
-    	    	
+      	    	
     database_query("update ticket set state_id = 1 where state_id = -1 and text like '" + lr.eval_string("{testtext}") + "'");
-    database_query("update ticket set external_system = 'ASKO' where external_system != 'ASKO'");
+    database_query("update ticket set external_system = 'ASKO' where external_system != 'ASKO'"); 
+    database_query("update task set external_system = 'ASKO' where external_system != 'ASKO'");     
 	database_query(
     	"insert into task (id, Ticket_id, state_id, header, priority_id, text, client_id, create_date, external_system," +
 		"external_id, change_id, guid, contractor_id, solution_group_id, last_edit_date, engineer_id) select id, id, state_id," +
@@ -48,7 +49,7 @@ public class Actions
     	"and NOT EXISTS (SELECT * FROM task WHERE task.Ticket_id = ticket.id) and text like '" + lr.eval_string("{testtext}") + "'");
 	
 	connection.commit();
-	connection.close();
+	//connection.close();
 
 	return 0;
     }
@@ -64,6 +65,7 @@ public class Actions
 	  	 	lr.log_message("Executing Query");
 	  	 	lr.set_transaction_status(lr.PASS);
 	  	 	rset.close();
+	  	 	stmt.close();
 	   } catch (SQLException e) {
 	    // SQL Query has failed
 	        lr.log_message("Caught Exception: " + e.getMessage());
@@ -85,6 +87,7 @@ public class Actions
     }
     
     public int end() throws Throwable {
+    	connection.commit();
     	connection.close();
     	lr.log_message("Closing connection");
         return 0;

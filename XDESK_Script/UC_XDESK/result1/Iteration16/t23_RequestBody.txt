@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Лифт работает с открыто�\xB9 дв�"
-"�рце�\xB9","ticketStateId":0,"serviceId":"2915","files":[],"inventoryNumberId":"10","shopId"
-"":"5"}"

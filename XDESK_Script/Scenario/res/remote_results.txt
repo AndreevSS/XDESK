@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\XDESK_Script\Scenario\res\localhost_1.eve

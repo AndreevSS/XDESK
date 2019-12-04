@@ -1,0 +1,11 @@
+[DATA_POINT]
+1="HTTP_204"
+2="tcp_connect"
+3="tcp_connection_count"
+4="mic_recv"
+5="HTTP_200"
+6="tcp_shutdown"
+7="HTTP_302"
+8="HTTP_400"
+9="HTTP_500"
+10="HTTP_401"

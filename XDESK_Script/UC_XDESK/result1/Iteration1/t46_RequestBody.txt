@@ -1,0 +1,2 @@
+"loadrunner,label=/api/inventoryNumbersserviceIdshopId,responseCode=200,success=true responseTi"
+"me=25,bytes=441,sentBytes=337,URL="learning2.pflb.ru" 1575469851559230000"

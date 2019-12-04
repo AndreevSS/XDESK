@@ -1,0 +1,32 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=12.60.0.0
+Path=C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\Scenario2.lrs
+Subject=Scenario2
+Result_file=C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\XDESK_Script\Scenario\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-10800
+Start_time=1575470175
+Daylight_Bias=0
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+[Data Collection]
+FullData=0
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Group schedule for: uc02_switch_task_state
+Mode=Group Scheduling
+Scenario Duration=Unknown duration
+Load Behavior=Defined per scenario group
+[Scripts]
+UC_XDESK=C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\XDESK_Script\UC_XDESK\UC_XDESK.usr
+UC02_switch_task_state=C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\XDESK_Script\UC02_switch_task_state\UC02_switch_task_state.usr
+[Scripts_types]
+UC_XDESK=Multi+QTWeb
+UC02_switch_task_state=Java_protocols

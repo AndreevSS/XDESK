@@ -1,0 +1,2 @@
+"loadrunner,label=/api/user/catalog/treeviewshopid,responseCode=200,success=true responseTime=2"
+"94,bytes=76059,sentBytes=327,URL="learning2.pflb.ru" 1575469851100419000"

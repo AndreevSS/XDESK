@@ -1,0 +1,53 @@
+[Log]
+MsgClassParameters=0
+LogOptions=LogBrief
+AutoLogBufferSize=1
+IncludeEnvInfo=1
+PrintTimeStamp=0
+MsgClassFull=0
+AutoLog=1
+MsgClassData=0
+LogDetail="0"
+[General]
+XlBridgeTimeout="120"
+DefaultRunLogic="uspVNF.871"
+iter_begins_val=fixed
+iter_ends_val=fixed
+ContinueOnError=0
+FailTransOnErrorMsg=0
+AutomaticTransactions=1
+UseThreads=1
+Replay64bit=0
+[JavaVM:Options]
+jdk_home="C:\Program Files (x86)\Java\jdk1.8.0_231\"
+Java_VM_Params_extra_arg_2=
+Java_VM_Params_extra_arg_1=C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+enable_CL_per_vuser="0"
+jdk_home_extra_arg_4=
+jdk_home_extra_arg_3=c:\
+jdk_home_extra_arg_2=C:\Program Files (x86)\Java\jdk1.8.0_231\
+jdk_home_extra_arg_1=C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+Java_Env_ClassPath=C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\ojdbc8.jar;C:\Users\student\Downloads\123\sqljdbc_6.0\rus\jre8\sqljdbc42.jar;
+Java_Env_ClassPath_UI="C:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\ojdbc8.jar;C:\Users\student\Downloads\ojdbc6.jar;C:\Users\student\Downloads\ojdbc10.jar;C:\Users\student\Downloads\ucp.jar;C:\Users\student\Downloads\123\sqljdbc_6.0\rus\jre8\sqljdbc42.jar;"
+use_jdk="specified_jdk"
+Java_VM_Params=""
+Use_Xboot="0"
+[Iterations]
+RandomMax="90"
+RandomMin="60"
+IterationPace="IterationASAP"
+StartEvery="60"
+NumOfIterations="1"
+[ThinkTime]
+Options=RECORDED
+Factor=1.000000
+ThinkTimeRandomHigh=150
+ThinkTimeRandomLow=50
+Limit=1
+LimitFlag=0
+[CommandArguments]
+[ModemSpeed]
+EnableModemSpeed=0
+EnableCustomModemSpeed=0
+ModemSpeed=128000
+CustomModemSpeed=1000

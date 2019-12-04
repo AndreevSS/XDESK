@@ -1,3 +1,2 @@
-"{"text":"testdescriptiontest","header":"В холодильнике разбито/слома�"
-"�о(указать, что именно)","ticketStateId":0,"serviceId":"2977","files":[],"inv"
-"entoryNumberId":"8","shopId":"4"}"
+"loadrunner,label=/api/inventoryNumbersserviceIdshopId,responseCode=200,success=true responseTi"
+"me=51,bytes=441,sentBytes=336,URL="learning2.pflb.ru" 1575469848462194000"

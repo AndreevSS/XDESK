@@ -1,0 +1,2 @@
+"{"text":"testdescriptiontest","header":"В камере не горит свет","ticketState"
+"Id":0,"serviceId":"2961","files":[],"inventoryNumberId":"null","shopId":"-1"}"

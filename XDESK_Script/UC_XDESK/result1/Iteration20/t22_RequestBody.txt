@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"Лифт не поднимает вес","ticketStateI"
-"d":0,"serviceId":"2914","files":[],"inventoryNumberId":"null","shopId":"-2"}"

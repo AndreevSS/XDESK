@@ -1,0 +1,2 @@
+"loadrunner,label=/api/task/state1page0size10,responseCode=200,success=true responseTime=1114,b"
+"ytes=14669,sentBytes=371,URL="learning2.pflb.ru" 1575469868079443000"

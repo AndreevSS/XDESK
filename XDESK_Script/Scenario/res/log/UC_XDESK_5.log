@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+influxdb.c(45): web_get_int_property started  	[MsgId: MMSG-26355]
+influxdb.c(45): web_get_int_property was successful  	[MsgId: MMSG-26392]
+influxdb.c(49): web_get_int_property started  	[MsgId: MMSG-26355]
+influxdb.c(49): web_get_int_property was successful  	[MsgId: MMSG-26392]
+loadrunner,label=comment/,responseCode=200,success=true responseTime=152,bytes=450,sentBytes=448,URL="learning2.pflb.ru" 1575470428344470000	[MsgId: MMSG-17999]
+influxdb.c(61): web_custom_request("DB_Request") started  	[MsgId: MMSG-26355]
+influxdb.c(61): web_custom_request("DB_Request") was successful, 0 body bytes, 248 header bytes  	[MsgId: MMSG-26386]
+Comment_task.c(116): web_url("/api/ticket/{TaskID}/comment/") started  	[MsgId: MMSG-26355]
+Comment_task.c(116): Continuing after Error -27722: Step download timeout (120 seconds) has expired when downloading resource "http://learning2.pflb.ru:56902/api/ticket/150509/comment/"  	[MsgId: MERR-27722]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

@@ -1,0 +1,2 @@
+"loadrunner,label=/api/shops?qpage0,responseCode=200,success=true responseTime=52,bytes=1343,se"
+"ntBytes=311,URL="learning2.pflb.ru" 1575469850592231000"

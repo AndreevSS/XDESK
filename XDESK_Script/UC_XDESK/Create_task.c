@@ -27,6 +27,8 @@ Create_task()
 
 	lr_start_transaction("UC1_TR3_LOCATION");
 	
+	BeforeRequest();
+	
 	web_reg_save_param_json(
         "ParamName=allshopids",
         "QueryString=$..id",
@@ -44,6 +46,8 @@ Create_task()
 		"Snapshot=t80.inf", 
 		"Mode=HTML", 
 		LAST);
+	
+	AfterRequest("/api/shops?qpage0");
 
 	web_url("/api/user/catalog/node/0/children/", 
 		"URL=http://{URL}:{port}/api/user/catalog/node/0/children/", 
@@ -56,7 +60,9 @@ Create_task()
 		LAST);
 	
 	lr_param_sprintf("shopid",lr_paramarr_random("allshopids"));
-	                         
+
+	BeforeRequest();	
+	
 	web_reg_save_param_json(
         "ParamName=allservicesIDs",
         "QueryString=$..services..id",
@@ -82,6 +88,8 @@ Create_task()
 		"Snapshot=t82.inf", 
 		"Mode=HTML", 
 		LAST);
+	
+	AfterRequest("/api/user/catalog/treeviewshopid");
 
 	lr_end_transaction("UC1_TR3_LOCATION",LR_AUTO);
 
@@ -128,6 +136,8 @@ Create_task()
 		"Mode=HTML", 
 		LAST);
 	
+	BeforeRequest();
+	
 	web_reg_save_param_json(
         "ParamName=numberOfElements",
         "QueryString=$.numberOfElements",
@@ -144,10 +154,14 @@ Create_task()
 		"Snapshot=t86.inf", 
 		"Mode=HTML", 
 		LAST);
-
+	
+	AfterRequest("/api/inventoryNumbersserviceIdshopId");
+	
 	lr_end_transaction("UC1_TR4_QUESTION",LR_AUTO);
 	
 	lr_start_transaction("UC1_TR5_INVNUMBER");
+	
+	BeforeRequest();
 	
 	if (atoi(lr_eval_string("{numberOfElements}")) > 0)
 		{

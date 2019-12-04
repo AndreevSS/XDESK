@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Требуется дополнительны�\xB9 в�"
-"�воз вторсырья","ticketStateId":0,"serviceId":"2812","files":[],"inventoryNumberId"
-"":"6","shopId":"4"}"

@@ -1,2 +1,0 @@
-"loadrunner,label=solve/,responseCode=200,success=true responseTime=474,bytes=2009,sentBytes=36"
-"1,URL="learning2.pflb.ru" 1575460307095831000"

@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"Не светится вся вывеска","ticketSt"
-"ateId":0,"serviceId":"2993","files":[],"inventoryNumberId":"null","shopId":"-2"}"

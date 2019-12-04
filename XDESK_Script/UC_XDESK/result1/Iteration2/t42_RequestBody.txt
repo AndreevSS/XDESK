@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"Лифт не поднимает / не опускае"
-"т","ticketStateId":0,"serviceId":"2913","files":[],"inventoryNumberId":"null","shopId":"-1"}"

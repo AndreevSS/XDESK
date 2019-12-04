@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"Не светится несколько букв","ti"
-"cketStateId":0,"serviceId":"2994","files":[],"inventoryNumberId":"9","shopId":"5"}"

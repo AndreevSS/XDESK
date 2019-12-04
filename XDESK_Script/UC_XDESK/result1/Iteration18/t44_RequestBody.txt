@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Отсутствие индикации (не вращ"
-"аются ролики или индикации электр. табло)","ticketStateId":0"
-","serviceId":"2822","files":[],"inventoryNumberId":"7","shopId":"4"}"

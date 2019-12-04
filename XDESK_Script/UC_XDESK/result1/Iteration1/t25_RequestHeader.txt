@@ -1,0 +1,12 @@
+POST /api/ticket/ HTTP/1.1
+Content-Type: application/json; charset=UTF-8
+Cache-Control: no-cache
+Referer: http://learning2.pflb.ru:56902/
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: learning2.pflb.ru:56902
+Cookie: SESSION=50065b8c-896b-4ad6-b950-c205754d0b00
+Content-Length: 287
+

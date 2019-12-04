@@ -1,9 +1,0 @@
-GET /api/ticket/150008 HTTP/1.1
-Referer: http://learning2.pflb.ru:56902/
-User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: Keep-Alive
-Host: learning2.pflb.ru:56902
-Cookie: SESSION=43bb6dcc-d238-49d3-9047-1db8ba7480b2
-

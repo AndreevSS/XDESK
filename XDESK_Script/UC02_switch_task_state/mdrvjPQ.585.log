@@ -1,0 +1,57 @@
+Notify: JDK found at C:/Program Files (x86)/Java/jdk1.8.0_231	[MsgId: MMSG-22194]	[MsgId: MMSG-22986]
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action Actions.	[MsgId: MMSG-15919]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Actions.java(0): Error: System.err: java.sql.SQLRecoverableException: Закрытое соединение                                                                                                                                                      Error	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:498)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Actions.java(0): Error: System.err: java.sql.SQLRecoverableException: Закрытое соединение                                                                                                                                                      Error	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:498)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Actions.java(0): Error: System.err: java.sql.SQLRecoverableException: Закрытое соединение                                                                                                                                                      Error	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:498)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Actions.java(0): Error: System.err: java.sql.SQLRecoverableException: Закрытое соединение                                                                                                                                                      Error	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:498)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Caught Exception: Закрытое соединение	[MsgId: MMSG-17999]
+Actions.java(0): Error: java.sql.SQLRecoverableException: Р—Р°РєСЂС‹С‚РѕРµ СЃРѕРµРґРёРЅРµРЅРёРµ
+    oracle.jdbc.driver.PhysicalConnection.getAutoCommit(PhysicalConnection.java:1828)
+    oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:1905)
+    oracle.jdbc.driver.PhysicalConnection.commit(PhysicalConnection.java:1942)
+    Actions.action(Actions.java:51)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:498)
+    com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)
+    com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)	[MsgId: MERR-22986]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,3 +1,0 @@
-"{"text":"testdescriptiontest","header":"Кондиционер издаёт нехаракте"
-"рные звуки","ticketStateId":0,"serviceId":"2934","files":[],"inventoryNumberId":"7",""
-"shopId":"4"}"

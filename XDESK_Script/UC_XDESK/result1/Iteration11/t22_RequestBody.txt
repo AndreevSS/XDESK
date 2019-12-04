@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"Сгорели тэны в Гриле","ticketStateId""
-":0,"serviceId":"2898","files":[],"inventoryNumberId":"null","shopId":"1"}"

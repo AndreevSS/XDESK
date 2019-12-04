@@ -1,2 +1,2 @@
-"loadrunner,label=/api/login,responseCode=200,success=true responseTime=370,bytes=485,sentBytes"
-"=389,URL="learning2.pflb.ru" 1575460178754303000"
+"loadrunner,label=/api/login,responseCode=200,success=true responseTime=177,bytes=485,sentBytes"
+"=389,URL="learning2.pflb.ru" 1575469842941824000"

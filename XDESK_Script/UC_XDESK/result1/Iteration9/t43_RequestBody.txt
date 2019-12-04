@@ -1,2 +1,0 @@
-"{"text":"testdescriptiontest","header":"�\x98з трубки выходит ГАЗ","ticketSta"
-"teId":0,"serviceId":"2955","files":[],"inventoryNumberId":"null","shopId":"-2"}"
