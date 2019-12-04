@@ -53,7 +53,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC1_TR1_LOGIN__*delimiter*__UC1_TR2_NEWINC__*delimiter*__UC1_TR3_LOCATION__*delimiter*__UC1_TR4_QUESTION__*delimiter*__UC1_TR5_INVNUMBER__*delimiter*__UC1_TR7_CREATE__*delimiter*__UC1_TR8_OKBUTTON__*delimiter*__UC1_TR9_LOGOUT"
 [StateManagement]
-LastReplayStatus=3
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
@@ -68,3 +68,4 @@ UC1_TR8_OKBUTTON=
 UC1_TR9_LOGOUT=
 [ManuallyExtraFiles]
 dist_ru (2)(1).zip=
+Influxdb.c=

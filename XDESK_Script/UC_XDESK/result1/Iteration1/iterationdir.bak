@@ -1,0 +1,8 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Close_task]
+SnapshotIndex=I1_Close_task
+[Comment_task]
+SnapshotIndex=I1_Comment_task
+[Create_task]
+SnapshotIndex=I1_Create_task

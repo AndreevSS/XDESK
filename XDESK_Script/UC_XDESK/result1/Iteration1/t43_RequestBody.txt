@@ -1,0 +1,3 @@
+"{"text":"testdescriptiontest","header":"Отсутствие индикации на конт�"
+"�ольных приборах","ticketStateId":0,"serviceId":"2849","files":[],"inventoryNumb"
+"erId":"null","shopId":"-1"}"

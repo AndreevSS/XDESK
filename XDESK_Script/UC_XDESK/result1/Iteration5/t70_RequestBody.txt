@@ -1,0 +1,2 @@
+"loadrunner,label=comment/,responseCode=200,success=true responseTime=196,bytes=450,sentBytes=4"
+"48,URL="learning2.pflb.ru" 1575460328790154000"

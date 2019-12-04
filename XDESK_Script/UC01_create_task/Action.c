@@ -1,5 +1,7 @@
+
 Action()
 {
+	 
 
 	int randomID = 0;
 	char buffer [128];
@@ -11,8 +13,6 @@ Action()
 	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	
-
 	web_url("Homepage", 
 		"URL=http://{URL}:{port}/", 
 		"TargetFrame=", 
@@ -23,11 +23,6 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	
-
-
-	
-
 	web_url("login", 
 		"URL=http://{URL}:{port}/login", 
 		"TargetFrame=", 
@@ -37,14 +32,8 @@ Action()
 		"Snapshot=t71.inf", 
 		"Mode=HTML", 
 		LAST);
-
+	
 	lr_start_transaction("UC1_TR1_LOGIN");
-
-	
-
-	
-
-	lr_think_time(10);
 
 	web_submit_data("/api/login", 
 		"Action=http://{URL}:{port}/api/login", 
@@ -58,7 +47,6 @@ Action()
 		"Name=password", "Value={Password}", ENDITEM, 
 		"Name=rememberMe", "Value=false", ENDITEM, 
 		LAST);
-
 
 	web_url("Homepage_2", 
 		"URL=http://{URL}:{port}/", 
@@ -139,7 +127,7 @@ Action()
 
 	lr_end_transaction("UC1_TR2_NEWINC",LR_AUTO);
 
-	lr_think_time(10);
+	
 
 	lr_start_transaction("UC1_TR3_LOCATION");
 	
@@ -264,7 +252,7 @@ Action()
 
 	lr_end_transaction("UC1_TR4_QUESTION",LR_AUTO);
 	
-	lr_think_time(10);
+	
 
 	lr_start_transaction("UC1_TR5_INVNUMBER");
 	
@@ -304,7 +292,7 @@ Action()
 
 	
 
-	lr_think_time(10);
+	
 	
 	web_reg_save_param_json(
         "ParamName=fileID",
@@ -330,7 +318,7 @@ Action()
 	
 	*/
 
-	lr_think_time(10);
+	
 
 		
 
@@ -361,7 +349,7 @@ Action()
 	
 	
 
-	lr_think_time(10);
+	
 
 	web_url("{URL}:{port}_3", 
 		"URL=http://{URL}:{port}/", 
@@ -416,7 +404,7 @@ Action()
 
 	lr_end_transaction("UC1_TR8_OKBUTTON",LR_AUTO);
 
-	lr_think_time(10);
+	
 
 	lr_start_transaction("UC1_TR9_LOGOUT");
 

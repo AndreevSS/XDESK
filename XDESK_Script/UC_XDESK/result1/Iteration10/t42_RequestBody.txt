@@ -1,0 +1,2 @@
+"{"text":"testdescriptiontest","header":"Отсутствие пломб","ticketStateId":0,"se"
+"rviceId":"2824","files":[],"inventoryNumberId":"null","shopId":"2"}"

@@ -1,0 +1,3 @@
+"{"text":"testdescriptiontest","header":"В холодильнике разбито/слома�"
+"�о(указать, что именно)","ticketStateId":0,"serviceId":"2977","files":[],"inv"
+"entoryNumberId":"8","shopId":"4"}"

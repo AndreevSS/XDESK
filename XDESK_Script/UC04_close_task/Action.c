@@ -3,8 +3,6 @@ Action()
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	
-
 	web_url("Homepage", 
 		"URL=http://{URL}:{port}/", 
 		"TargetFrame=", 
@@ -14,11 +12,6 @@ Action()
 		"Snapshot=t67.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	
-
-
-	
 
 	web_url("/login", 
 		"URL=http://{URL}:{port}/login", 
@@ -31,12 +24,9 @@ Action()
 		LAST);
 
 	lr_start_transaction("UC4_TR1_LOGIN");
-
 	
 
 	
-
-	lr_think_time(10);
 
 	web_submit_data("/api/login", 
 		"Action=http://{URL}:{port}/api/login", 
@@ -158,7 +148,7 @@ Action()
 
 	
 
-	lr_think_time(10);
+	
 
 	web_url("/engineer/task/task.dust", 
 		"URL=http://{URL}:{port}/engineer/task/task.dust", 
@@ -239,7 +229,7 @@ Action()
 
 	
 
-	lr_think_time(10);
+	
 
 	web_custom_request("/api/ticket/{TaskID}/solve/", 
 		"URL=http://{URL}:{port}/api/ticket/{TaskID}/solve/", 

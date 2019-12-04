@@ -1,11 +1,12 @@
 Notify: JDK found at C:/Program Files (x86)/Java/jdk1.8.0_231
-Virtual User Script started at: 28.11.2019 17:27:43
+Virtual User Script started at: 04.12.2019 15:21:10
 Starting action vuser_init.
 JDBC Connection Successful
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Actions.
+Executing Query
 Executing Query
 Executing Query
 Ending action Actions.

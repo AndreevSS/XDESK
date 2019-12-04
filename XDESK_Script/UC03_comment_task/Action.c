@@ -36,7 +36,7 @@ Action()
 
 	
 
-	lr_think_time(10);
+	
 
 	web_submit_data("/api/login", 
 		"Action=http://{URL}:{port}/api/login", 
@@ -156,7 +156,7 @@ Action()
 
 	
 
-	lr_think_time(10);
+	
 
 	web_url("/engineer/task/task.dust", 
 		"URL=http://{URL}:{port}/engineer/task/task.dust", 
@@ -212,7 +212,7 @@ Action()
 
 	
 
-	lr_think_time(10);
+	
 	
 	web_reg_save_param_json(
         "ParamName=fileID",
@@ -236,7 +236,7 @@ Action()
 
 	lr_end_transaction("UC3_TR4_ADDFILE",LR_AUTO);
 */
-	lr_think_time(10);
+	
 
 	lr_start_transaction("UC3_TR5_SUBMIT_COMMENT");
 

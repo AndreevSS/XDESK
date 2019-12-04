@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\student\Desktop\Новая папка (2)\Andreev123\pc\togit\XDESK\XDESK_Script\UC_XDESK
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc_xdesk\\logfile.log
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc_xdesk\\combined_UC_XDESK.c
+c:\users\student\desktop\новая папка (2)\andreev123\pc\togit\xdesk\xdesk_script\uc_xdesk\\pre_cci.c

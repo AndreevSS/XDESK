@@ -1,0 +1,10 @@
+GET /api/shops?q=&page=0 HTTP/1.1
+Referer: http://learning2.pflb.ru:56902/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: learning2.pflb.ru:56902
+Cookie: SESSION=511e4354-5309-40d3-9b83-a3fa012c02e1
+

@@ -1,0 +1,3 @@
+"{"text":"testdescriptiontest","header":"Течь из корпуса расходомеров,"
+" датчиков температуры и давления","ticketStateId":0,"serviceId":"2"
+"825","files":[],"inventoryNumberId":"null","shopId":"2"}"

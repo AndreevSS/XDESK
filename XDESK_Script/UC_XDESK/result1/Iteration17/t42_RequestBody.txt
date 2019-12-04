@@ -1,0 +1,2 @@
+"{"text":"testdescriptiontest","header":"Разбито стекло на двери","ticketSt"
+"ateId":0,"serviceId":"2899","files":[],"inventoryNumberId":"null","shopId":"-1"}"

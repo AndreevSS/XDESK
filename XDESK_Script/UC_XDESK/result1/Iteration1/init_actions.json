@@ -1,0 +1,52 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Homepage_2",
+                "infFile": "t3.inf",
+                "time": 1575460179495
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: /api/checkLogin",
+                "infFile": "t4.inf",
+                "time": 1575460179598
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: /api/user/info",
+                "infFile": "t5.inf",
+                "time": 1575460179713
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: /api/ticket/countByState/4",
+                "infFile": "t6.inf",
+                "time": 1575460179801
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: /api/ticket/countByState/",
+                "infFile": "t7.inf",
+                "time": 1575460179889
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: /api/ticket/?state=-1,0,1,5&page=0&size=10",
+                "infFile": "t8.inf",
+                "time": 1575460181355
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC1_TR1_LOGIN",
+                "rawStartTime": 1575460178183,
+                "rawEndTime": 1575460181355,
+                "thinkTime": 0.0,
+                "wastedTime": 0.40711379051208498
+            }
+        ]
+    }
+]

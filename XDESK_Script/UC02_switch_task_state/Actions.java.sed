@@ -39,6 +39,7 @@ public class Actions
     public int action() throws ClassNotFoundException, SQLException {
     	    	
     database_query("update ticket set state_id = 1 where state_id = -1 and text like '" + lr.eval_string("{testtext}") + "'");
+    database_query("update ticket set external_system = 'ASKO' where external_system != 'ASKO'");
 	database_query(
     	"insert into task (id, Ticket_id, state_id, header, priority_id, text, client_id, create_date, external_system," +
 		"external_id, change_id, guid, contractor_id, solution_group_id, last_edit_date, engineer_id) select id, id, state_id," +

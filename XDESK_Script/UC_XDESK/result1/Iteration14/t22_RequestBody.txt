@@ -1,0 +1,3 @@
+"{"text":"testdescriptiontest","header":"Отсутствие замены ковровых п�"
+"�крыти�\xB9 (не приезжает ма�\x88ина)","ticketStateId":0,"serviceId":"281"
+"5","files":[],"inventoryNumberId":"null","shopId":"2"}"

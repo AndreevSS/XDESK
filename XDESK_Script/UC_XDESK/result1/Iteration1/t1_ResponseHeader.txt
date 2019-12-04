@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: SESSION=43bb6dcc-d238-49d3-9047-1db8ba7480b2; Path=/; HttpOnly
+Content-Length: 146
+Date: Wed, 04 Dec 2019 11:49:39 GMT
+

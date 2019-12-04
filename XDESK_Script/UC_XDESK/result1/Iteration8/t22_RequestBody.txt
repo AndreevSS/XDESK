@@ -1,0 +1,2 @@
+"{"text":"testdescriptiontest","header":"Отсутствие моющих средств","tic"
+"ketStateId":0,"serviceId":"2798","files":[],"inventoryNumberId":"null","shopId":"-1"}"

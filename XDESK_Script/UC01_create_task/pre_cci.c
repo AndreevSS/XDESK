@@ -2582,6 +2582,75 @@ void
 
 # 8 "globals.h" 2
 
+# 1 "influxdb.c" 1
+int bytesbeforerequest;
+
+int BeforeRequest()
+{
+	
+	web_get_int_property(5);
+	web_get_int_property(4);
+	web_get_int_property(3);
+	
+	bytesbeforerequest =  web_get_int_property(4);	
+	return;
+}
+
+char * AfterRequest(char * label)
+{
+	char * measurement = "loadrunner";
+ 
+	int responseCode;
+	int elapsedTime;
+	int bytes;
+	int sentbytes;
+	char success [5];
+	char * URL;
+	char * timestamp;
+	char result [256];
+
+	 
+	lr_save_timestamp("TimeEnd", "DIGITS=16","LAST");
+
+	responseCode = web_get_int_property(1);
+
+	sprintf(success, "%d", responseCode);
+	if ((success[0] == '2') || (success[0] == '3'))
+		{
+			sprintf(success, "true");
+		}
+	else
+		{
+			sprintf(success, "false");
+		};
+
+		
+	bytes = web_get_int_property(2);
+	sentbytes = web_get_int_property(4);
+	
+	sentbytes = sentbytes - bytesbeforerequest;
+	
+	elapsedTime = web_get_int_property(3);
+	timestamp = lr_eval_string("{TimeEnd}");
+	sprintf(timestamp, "%s000",timestamp);
+	URL = lr_eval_string("{URL}");
+			
+	sprintf(result, "%s,label=%s,responseCode=%d,success=%s responseTime=%d,bytes=%d,sentBytes=%d,URL=\"%s\" %s",
+	        measurement, label, responseCode, success, elapsedTime, bytes, sentbytes, URL, timestamp);
+		
+	lr_save_string(result,"result");
+		
+	lr_message(result);
+
+	web_custom_request("DB_Request",
+	                   "Method=POST",
+	                   "URL=http://localhost:8086/write?db=inflxdb", 
+	                   "Body={result}",
+	                   "LAST");
+	return;
+}
+# 9 "globals.h" 2
+
 
 
 
@@ -2608,8 +2677,11 @@ vuser_init()
 # 4 "c:\\users\\student\\desktop\\\355\356\342\340\377 \357\340\357\352\340 (2)\\andreev123\\pc\\togit\\xdesk\\xdesk_script\\uc01_create_task\\\\combined_UC01_create_task.c" 2
 
 # 1 "Action.c" 1
+
+	
 Action()
 {
+	 
 
 	int randomID = 0;
 	char buffer [128];
@@ -2621,8 +2693,6 @@ Action()
 	
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
-	
-
 	web_url("Homepage", 
 		"URL=http://{URL}:{port}/", 
 		"TargetFrame=", 
@@ -2632,11 +2702,6 @@ Action()
 		"Snapshot=t67.inf", 
 		"Mode=HTML", 
 		"LAST");
-
-	
-
-
-	
 
 	web_url("login", 
 		"URL=http://{URL}:{port}/login", 
@@ -2648,13 +2713,13 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
+	lr_think_time(15);
+	
+
+	
 	lr_start_transaction("UC1_TR1_LOGIN");
 
-	
-
-	
-
-	lr_think_time(10);
+	BeforeRequest();
 
 	web_submit_data("/api/login", 
 		"Action=http://{URL}:{port}/api/login", 
@@ -2668,6 +2733,8 @@ Action()
 		"Name=password", "Value={Password}", "ENDITEM", 
 		"Name=rememberMe", "Value=false", "ENDITEM", 
 		"LAST");
+	
+	AfterRequest("/api/login");
 
 
 	web_url("Homepage_2", 
@@ -2911,7 +2978,7 @@ Action()
 		};
 
  
-# 332 "Action.c"
+# 330 "Action.c"
 
 	lr_think_time(10);
 
